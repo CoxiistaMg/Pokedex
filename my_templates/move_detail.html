@@ -1,0 +1,25 @@
+{% extends 'base.html'%}
+
+{% block content%}
+<div class="container border card my-4 p-5">
+    <div class='row'>
+        <div class="col-3" id="title"></div></div>
+        <div class="col-1"><img src="/media/types/{{move.6}}.jpg" class="img-fluid"></div>
+        <hr>
+        <h3>Description</h3>
+        <h6 id="desc"></h6>
+        <h6>Power: {{move.2}}</h6>
+        <h6>Accurate: {{move.1}}</h6>
+        <h6>PP: {{move.3}}</h6>
+        <h6>Category: {{move.4}}</h6>
+        <h6>Priority: {{move.5}}</h6>
+    
+    </div>
+</div>
+
+<script>
+    document.getElementById('title').innerHTML = '<h2>{{move.0}}</h2>'.replace('-', ' ')
+    document.getElementById('desc').innerHTML = '{{move.7}}'
+</script>
+{% endblock%}
+
