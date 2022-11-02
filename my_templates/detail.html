@@ -1,0 +1,419 @@
+{% extends 'base.html'%}
+{% load static %}
+{% load stats %}
+
+{% block script %}
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <link rel="icon" href="media/icon.png">
+{% endblock %}
+
+{% block content%}
+<div class='container'>
+  <div class="row my-2">
+    <div class="col-6"><a href="{% url 'pokemon' p=before.url_name %}">
+      <div class="col-12 btn border"><p>&#9664;  N° {{before.id}} {{before.relative_name.title}}</p>
+    </div></a></div>
+  <div class="col-6">
+    <a href="{% url 'pokemon' p=later.url_name %}">
+      <div class="btn col-12 border"><p>{{later.relative_name.title}} N° {{later.id}} &#9654;</p></div>
+    </a>
+  </div>  
+  </div>
+</div>
+
+    <div class='container border my-4 px-4'>
+        <div class="row my-5">
+            <div class="col-lg-4 text-center">
+                <h1 id="name">
+                    {{pokemon.relative_name.title }}
+                </h1>
+                <p>
+                    N° {{pokemon.id}}
+                </p>
+
+      
+                <img id="img" style='width: 270px; height: 300px;' class='img img-fluid' src="{{pokemon.url_image}}" alt="">
+                {% if pokemon.varieties%}
+                <form method="post">
+                  {% csrf_token %}
+                <select class="form-select bg-dark text-light" name="variables" aria-label="Default select example" onchange='this.form.submit()'>
+                  {% for each in pokemon.varieties.items%}
+                  {% if each.0 == pokemon.name %}
+                  <option value='{{each.0}}' selected>{{each.1.title}}</option>
+                  {% else %}
+                  <option  value='{{each.0}}''>{{each.1.title}}</option>
+                  {% endif %}
+                  {% endfor%}
+  
+                  
+                </select>
+              </form>
+                {% endif%}
+               
+        </div>
+
+            <div class="col-lg-3">           
+                <div class="text-center">
+                    <h2>Ability</h2>
+                    <ul>
+                    {%for abilitie in pokemon.abilities%}
+                    <p>
+                        {% if abilitie.is_hidden == True%}
+                    </ul>
+                            <h2 class="mt-5">Hidden Abilities</h2>
+                            <ul>
+                            {% endif%}
+                     <li>
+                        <button type="button" class="btn" data-toggle="modal" data-target="#exampleModal{{forloop.counter}}">
+                            {{abilitie.ability.name}}
+                          </button>
+                          
+                          <!-- Modal -->
+                          <div class="modal fade" id="exampleModal{{forloop.counter}}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title" id="exampleModalLabel">{{abilitie.ability.name}}</h5>
+                                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                  </button>
+                                </div>
+                                <div class="modal-body">
+                                  {{abilitie.ability.text}}
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                     </li>
+                            
+                    </p>
+                            {% endfor%}
+                        </ul>
+                    </div>
+            </div>
+        
+            <div class='col-lg-4'>
+                <div class="row justify-content-center text-center">
+                
+                    <h2>
+                        Types
+                    </h2>
+                 
+                    {% for type in pokemon.types%}
+                     
+                    <div class="col-3 col-md-2 col-lg-3">
+                        <img src="/media/types/{{type.type.name}}.jpg" class='img-fluid' alt="" srcset="">
+                    </div> 
+                    {% endfor %}
+                
+                <h4>Base.exp</h4>
+                <h3 style='color:gray'>{{pokemon.base_experience}}</h3>
+            <div class='col-4'>
+                <h4>Weight</h4>
+                <h5 style='color:gray'>{{pokemon.weight}} kg</h5>
+            </div>
+
+            <div class='col-4'>
+                <h4>Height</h4>
+                <h5 style='color:gray'>{{pokemon.height}} m</h5>
+            </div>
+
+            </div>
+        </div>
+        </div></div>
+    <div class="container border my-4 px-4 py-5">
+        <div class='card border-dark p-5 col-lg-8 col-12' style="background-color: #d0b49f;">
+        <h2 class='font-weight-bold'>Stats</h2>
+        <table class="col-12 border" style='border-radius: 4%;' >
+        <tbody>
+         
+        {% for stat in pokemon.stats|stats %}
+       
+        <tr style="background-color: #{{stat.color_stat}};" class='border border-dark'> 
+           
+             <th>{{stat.name}}</th>
+             <td>{{stat.value}}</td>
+             <td class='col-8 border border-dark'>
+                <div style="background-color: #{{stat.color_bar}}; width: {{stat.width}}%;" class=" border border-dark">
+                <br>
+            </div></td>
+
+            <td class="col-3 col-lg-2 text-center border border-dark">
+                {{stat.min}}-{{stat.max}}
+            </td>     
+        </tr>
+        {% endfor%}
+        </tbody>
+        </table>
+        <h3>Total: {{pokemon.stats|result_stats}} </h3>
+    </div>
+    </div>
+      </div>
+    </div>
+
+    <div class="container my-4 py-2">
+      <div class="row text-center border pb-3">
+        {% if super_effective%}
+        <div class="py-2 m-1">
+            <h1>Weakness</h1>
+            <div class="row text-center justify-content-center">
+            {% for each, key in super_effective.items %}
+            <div class="col-lg-1 col-2 card">
+              <span class="position-absolute top-0 translate-middle badge  bg-dark">
+                {{key}}x
+                <span class="visually-hidden">unread messages</span>
+              </span>
+              <img src="/media/types/{{each}}.jpg">
+            </div>
+            {% endfor%}
+          </div>
+        </div>
+        {% endif%}
+        {% if ineffective%}
+        <div class="">
+          <h1>Resistances</h1>
+          <div class="row text-center justify-content-center">
+          {% for each, key in ineffective.items %}
+          <div class="col-lg-1 col-2 card">
+              <span class="position-absolute top-0 translate-middle badge  bg-dark">
+                {{key}}x
+                <span class="visually-hidden">unread messages</span>
+              </span>
+            <img src="/media/types/{{each}}.jpg">
+          </div>
+          {% endfor%}
+        </div>
+      </div>
+        {% endif%}
+
+        {% if immune%}
+        <div class="m-1">
+          <h1>Immunity</h1>
+          <div class="row text-center justify-content-center">
+          {% for each in immune %}
+          <div class="col-lg-1 col-2 card">
+            <img src="/media/types/{{each}}.jpg">
+          </div>
+          {% endfor%}
+        </div>
+      </div>
+        {% endif%}
+
+      </div>
+    </div>
+
+      {% if pokemon.evolution_to%}
+          <div class="container border my-1 py-2">
+            <div class="row justify-content-center text-center">
+              <h1>Evolution Chain</h1>
+          {% for base in pokemon.evolution_to %}
+            {% for first_form in base.base %}
+              {% for chain in first_form.chain.values %}
+                <div class="row justify-content-center my-2 text-center">
+                    <div class='col-lg-3 col-12'>
+                      <a href="{% url 'pokedex'%}pokemon/${list_display[i].url_name}""> 
+                        <div class="card text-center p-4">
+                        <img class="card-img-top img-fluid rounded mx-auto d-block" style='height: 150px; width: 150px;' src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/{{first_form.id_url}}.png" alt="Card image">
+                      </a>
+                      <h4 class="card-title" style="color: black;">{{first_form.relative_name}}</h4>
+                          <span class='text-black-50'>N°{{first_form.id}}<span>
+                        <div class='row justify-content-center'>
+                        {% for type in first_form.types %}
+                        <div class='col-lg-5 col-2 justify-content-md-center'>
+                          <img src="/media/types/{{type.type.name}}.jpg" class='img-fluid' alt="" srcset="">
+                        </div>
+                    
+                      </span>
+                      </span>
+                 
+                      {% endfor %}
+                      </div>
+                      </div>
+                      </div>
+                      <div class="col-lg-1 col-8 py-lg-5 my-lg-5">
+                          <h1>→</h1>
+                          <span>{{chain.0.method}}</span>
+                      </div>
+
+                      <div class='col-lg-3 col-12'>
+                        <a href="{% url 'pokedex'%}pokemon/${list_display[i].url_name}"> 
+                          <div class="card text-center p-4"'>
+                          <img class="card-img-top img-fluid rounded mx-auto d-block" style='height: 150px; width: 150px;' src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/{{chain.0.id_url}}.png" alt="Card image">
+                        </a>
+                        <h4 class="card-title" style="color: black;">{{chain.0.relative_name}}</h4>
+                            <span class='text-black-50'>N°{{chain.0.id}}<span>
+                          <div class='row justify-content-center'>
+                          {% for type in chain.0.types %}
+  
+                            <div class='col-lg-5 col-2 justify-content-md-center'>
+                              <img src="/media/types/{{type.type.name}}.jpg" class='img-fluid' alt="" srcset="">
+                            </div>
+                         
+                            </span>
+                            </span>
+                          {% endfor %}
+                        </div>
+                        </div>
+                {% if chain.1|length <= 1%}
+                {% for detail in chain.1 %}
+                  </div>
+                  <div class="col-1 py-5 my-5">
+                    <h1>→</h1>
+                    <span>{{detail.method}}</span>
+                    </div>
+                    <div class='col-lg-3 col-12 p-3'>
+                      <a href="{% url 'pokedex'%}pokemon/${list_display[i].url_name}""> 
+                        <div class="card text-center p-4">
+                        <img class="card-img-top img-fluid rounded mx-auto d-block" style='height: 150px; width: 150px;' src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/{{detail.id_url}}.png" alt="Card image">
+                      </a>
+                      <h4 class="card-title" style="color: black;">{{detail.relative_name}}</h4>
+                          <span class='text-black-50'>N°{{detail.id}}<span>
+                        <div class='row justify-content-center'>
+                        {% for type in detail.types %}
+
+                          <div class='col-md-5 col-3 justify-content-md-center'>
+                            <img src="/media/types/{{type.type.name}}.jpg" class='img-fluid' alt="" srcset="">
+                          </div>
+                       
+                          </span>
+                          </span>
+                        {% endfor %}
+                    {% endfor %}
+                {% else %}
+                </div>
+                <div class="row justify-content-center offset-lg-4">
+                  <div class="col-lg-2 col-6 py-lg-3">
+                    <h1>↓</h1>
+                  </div>
+
+                  <div class="col-lg-2 col-6 py-lg-3">
+                    <h1>↓</h1>
+                  </div>
+                </div>
+                </div>
+                <div class="row justify-content-center offset-lg-4">
+                {% for detail in chain.1 %}
+            
+                  <div class='col-lg-2 col-6 pb-4'>
+                    <span>({{detail.method}})</span>
+                    <a href="{% url 'pokedex'%}pokemon/${list_display[i].url_name}""> 
+                      <div class="card text-center p-4">
+                      <img class="card-img-top img-fluid rounded mx-auto d-block" style='height: 150px; width: 150px;' src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/{{detail.id_url}}.png" alt="Card image">
+                    </a>
+                    <h4 class="card-title" style="color: black;">{{detail.relative_name}}</h4>
+                        <span class='text-black-50'>N°{{detail.id}}<span>
+                      <div class='row justify-content-center'>
+                      {% for type in detail.types %}
+
+                        <div class='col-lg-5 col-4 justify-content-md-center'>
+                          <img src="/media/types/{{type.type.name}}.jpg" class='img-fluid' alt="" srcset="">
+                        </div>
+                    
+                        </span>
+                        </span>
+                      
+                    {% endfor %}
+                    </div>
+                    </div>
+                  </div>
+                   
+               
+                {% endfor %}
+                {% endif %}
+                      </div>
+                    </div>
+              {% endfor %}
+                
+            {% endfor%}
+          
+          {% endfor%}
+      {% endif %}
+        
+      </div>
+        </div>
+      </div>
+<div class="container border">
+    <div id="gen-button-number" class="mt-3"></div>  
+      <h1 class="text-center">Generation <span id="current_gen"></span></h1>
+      <div class='container col-12 col-lg-8 border my-4 px-4'>
+        <div id="gen-button-name"></div>
+        <table class="table">
+          <h3>Moves learnt by level up</h3>
+            <thead>
+              <tr>
+                <th class="col">Level</th>
+                <th class="col">Name</th>
+                <th class="col text-center">POWER</th>
+                <th class="col">ACC</th>
+                <th style="width: 64px;">PP</th>
+                <th style="width: 64px;">Type</th>
+                <th class="col">CAT</th>
+                
+              </tr>
+            </thead>
+            <tbody id="level">
+              <tr>
+            
+              </tr>
+            </tbody>
+          </table>
+          </div>
+          <div class='container col-12 col-lg-8 border my-4 px-4'>
+            <div id="gen-button-name"></div>
+          <table class="table">
+            <h3>Moves learnt by TM</h3>
+              <thead>
+                <tr>
+                  <th class="col">Tm</th>
+                  <th class='text-center'>Name</th>
+                  <th class='text-center'>POWER</th>
+                  <th class="col">ACC</th>
+                  <th style="width: 64px;">PP</th>
+                  <th style="width: 64px;">Type</th>
+                  <th class="col">CAT</th>
+                </tr>
+              </thead>
+            </div>
+          </div>
+              <tbody id="tm/tr">
+                <tr>
+              
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class='container'>
+            <div class="row justify-content-center">
+          <div class='border col-md-7 my-4 px-4'>
+          <div id="egg_table"></div>
+            
+          </div>
+    
+        <div class='border col-md-7 my-4 px-4'>
+          <div id="tutor_table"></div>
+          </div>
+        </div>
+      </div>
+      </div>
+      </div>
+    </div>
+    <script>
+       const None = "___"
+       const learn_groups = [
+          'egg',
+          'level-up',
+          'tutor',
+          'machine'
+                      ]
+       const moves = {{moves|safe}}
+       const poke_moves ={{ pokemon.moves|safe }}
+       const tms = {{tms|safe}}
+    </script>
+
+    <script src="{% static 'javascript/app.js'%}"  type="text/javascript"></script>
+
+      
+        
+
+
+{% endblock %}

@@ -1,0 +1,8262 @@
+[
+   [
+      "pound",
+      100,
+      40,
+      35,
+      "physical",
+      0,
+      "normal",
+      "Pounds the foe with\nforelegs or tail."
+   ],
+   [
+      "karate-chop",
+      100,
+      50,
+      25,
+      "physical",
+      0,
+      "fighting",
+      "A chopping attack with a\nhigh critical-hit ratio."
+   ],
+   [
+      "double-slap",
+      85,
+      15,
+      10,
+      "physical",
+      0,
+      "normal",
+      "Repeatedly slaps the foe\n2 to 5 times."
+   ],
+   [
+      "comet-punch",
+      85,
+      18,
+      15,
+      "physical",
+      0,
+      "normal",
+      "Repeatedly punches the foe\n2 to 5 times."
+   ],
+   [
+      "mega-punch",
+      85,
+      80,
+      20,
+      "physical",
+      0,
+      "normal",
+      "A strong punch thrown with\nincredible power."
+   ],
+   [
+      "pay-day",
+      100,
+      40,
+      20,
+      "physical",
+      0,
+      "normal",
+      "Scatters money on the ground worth five times the user's level."
+   ],
+   [
+      "fire-punch",
+      100,
+      75,
+      15,
+      "physical",
+      0,
+      "fire",
+      "Has a $effect_chance% chance to burn the target."
+   ],
+   [
+      "ice-punch",
+      100,
+      75,
+      15,
+      "physical",
+      0,
+      "ice",
+      "Has a $effect_chance% chance to freeze the target."
+   ],
+   [
+      "thunder-punch",
+      100,
+      75,
+      15,
+      "physical",
+      0,
+      "electric",
+      "Has a $effect_chance% chance to paralyze the target."
+   ],
+   [
+      "scratch",
+      100,
+      40,
+      35,
+      "physical",
+      0,
+      "normal",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "vice-grip",
+      100,
+      55,
+      30,
+      "physical",
+      0,
+      "normal",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "guillotine",
+      30,
+      null,
+      5,
+      "physical",
+      0,
+      "normal",
+      "Causes a one-hit KO."
+   ],
+   [
+      "razor-wind",
+      100,
+      80,
+      10,
+      "special",
+      0,
+      "normal",
+      "Requires a turn to charge before attacking."
+   ],
+   [
+      "swords-dance",
+      null,
+      null,
+      20,
+      "status",
+      0,
+      "normal",
+      "Raises the user's Attack by two stages."
+   ],
+   [
+      "cut",
+      95,
+      50,
+      30,
+      "physical",
+      0,
+      "normal",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "gust",
+      100,
+      40,
+      35,
+      "special",
+      0,
+      "flying",
+      "Inflicts regular damage and can hit Pok\u00e9mon in the air."
+   ],
+   [
+      "wing-attack",
+      100,
+      60,
+      35,
+      "physical",
+      0,
+      "flying",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "whirlwind",
+      null,
+      null,
+      20,
+      "status",
+      -6,
+      "normal",
+      "Immediately ends wild battles.  Forces trainers to switch Pok\u00e9mon."
+   ],
+   [
+      "fly",
+      95,
+      90,
+      15,
+      "physical",
+      0,
+      "flying",
+      "User flies high into the air, dodging all attacks, and hits next turn."
+   ],
+   [
+      "bind",
+      85,
+      15,
+      20,
+      "physical",
+      0,
+      "normal",
+      "Prevents the target from fleeing and inflicts damage for 2-5 turns."
+   ],
+   [
+      "slam",
+      75,
+      80,
+      20,
+      "physical",
+      0,
+      "normal",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "vine-whip",
+      100,
+      45,
+      25,
+      "physical",
+      0,
+      "grass",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "stomp",
+      100,
+      65,
+      20,
+      "physical",
+      0,
+      "normal",
+      "Has a $effect_chance% chance to make the target flinch."
+   ],
+   [
+      "double-kick",
+      100,
+      30,
+      30,
+      "physical",
+      0,
+      "fighting",
+      "Hits twice in one turn."
+   ],
+   [
+      "mega-kick",
+      75,
+      120,
+      5,
+      "physical",
+      0,
+      "normal",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "jump-kick",
+      95,
+      100,
+      10,
+      "physical",
+      0,
+      "fighting",
+      "If the user misses, it takes half the damage it would have inflicted in recoil."
+   ],
+   [
+      "rolling-kick",
+      85,
+      60,
+      15,
+      "physical",
+      0,
+      "fighting",
+      "Has a $effect_chance% chance to make the target flinch."
+   ],
+   [
+      "sand-attack",
+      100,
+      null,
+      15,
+      "status",
+      0,
+      "ground",
+      "Lowers the target's accuracy by one stage."
+   ],
+   [
+      "headbutt",
+      100,
+      70,
+      15,
+      "physical",
+      0,
+      "normal",
+      "Has a $effect_chance% chance to make the target flinch."
+   ],
+   [
+      "horn-attack",
+      100,
+      65,
+      25,
+      "physical",
+      0,
+      "normal",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "fury-attack",
+      85,
+      15,
+      20,
+      "physical",
+      0,
+      "normal",
+      "Hits 2-5 times in one turn."
+   ],
+   [
+      "horn-drill",
+      30,
+      null,
+      5,
+      "physical",
+      0,
+      "normal",
+      "Causes a one-hit KO."
+   ],
+   [
+      "tackle",
+      100,
+      40,
+      35,
+      "physical",
+      0,
+      "normal",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "body-slam",
+      100,
+      85,
+      15,
+      "physical",
+      0,
+      "normal",
+      "Has a $effect_chance% chance to paralyze the target."
+   ],
+   [
+      "wrap",
+      90,
+      15,
+      20,
+      "physical",
+      0,
+      "normal",
+      "Prevents the target from fleeing and inflicts damage for 2-5 turns."
+   ],
+   [
+      "take-down",
+      85,
+      90,
+      20,
+      "physical",
+      0,
+      "normal",
+      "User receives 1/4 the damage it inflicts in recoil."
+   ],
+   [
+      "thrash",
+      100,
+      120,
+      10,
+      "physical",
+      0,
+      "normal",
+      "Hits every turn for 2-3 turns, then confuses the user."
+   ],
+   [
+      "double-edge",
+      100,
+      120,
+      15,
+      "physical",
+      0,
+      "normal",
+      "User receives 1/3 the damage inflicted in recoil."
+   ],
+   [
+      "tail-whip",
+      100,
+      null,
+      30,
+      "status",
+      0,
+      "normal",
+      "Lowers the target's Defense by one stage."
+   ],
+   [
+      "poison-sting",
+      100,
+      15,
+      35,
+      "physical",
+      0,
+      "poison",
+      "Has a $effect_chance% chance to poison the target."
+   ],
+   [
+      "twineedle",
+      100,
+      25,
+      20,
+      "physical",
+      0,
+      "bug",
+      "Hits twice in the same turn.  Has a $effect_chance% chance to poison the target."
+   ],
+   [
+      "pin-missile",
+      95,
+      25,
+      20,
+      "physical",
+      0,
+      "bug",
+      "Hits 2-5 times in one turn."
+   ],
+   [
+      "leer",
+      100,
+      null,
+      30,
+      "status",
+      0,
+      "normal",
+      "Lowers the target's Defense by one stage."
+   ],
+   [
+      "bite",
+      100,
+      60,
+      25,
+      "physical",
+      0,
+      "dark",
+      "Has a $effect_chance% chance to make the target flinch."
+   ],
+   [
+      "growl",
+      100,
+      null,
+      40,
+      "status",
+      0,
+      "normal",
+      "Lowers the target's Attack by one stage."
+   ],
+   [
+      "roar",
+      null,
+      null,
+      20,
+      "status",
+      -6,
+      "normal",
+      "Immediately ends wild battles.  Forces trainers to switch Pok\u00e9mon."
+   ],
+   [
+      "sing",
+      55,
+      null,
+      15,
+      "status",
+      0,
+      "normal",
+      "Puts the target to sleep."
+   ],
+   [
+      "supersonic",
+      55,
+      null,
+      20,
+      "status",
+      0,
+      "normal",
+      "Confuses the target."
+   ],
+   [
+      "sonic-boom",
+      90,
+      null,
+      20,
+      "special",
+      0,
+      "normal",
+      "Inflicts 20 points of damage."
+   ],
+   [
+      "disable",
+      100,
+      null,
+      20,
+      "status",
+      0,
+      "normal",
+      "Disables the target's last used move for 1-8 turns."
+   ],
+   [
+      "acid",
+      100,
+      40,
+      30,
+      "special",
+      0,
+      "poison",
+      "Has a $effect_chance% chance to lower the target's Special Defense by one stage."
+   ],
+   [
+      "ember",
+      100,
+      40,
+      25,
+      "special",
+      0,
+      "fire",
+      "Has a $effect_chance% chance to burn the target."
+   ],
+   [
+      "flamethrower",
+      100,
+      90,
+      15,
+      "special",
+      0,
+      "fire",
+      "Has a $effect_chance% chance to burn the target."
+   ],
+   [
+      "mist",
+      null,
+      null,
+      30,
+      "status",
+      0,
+      "ice",
+      "Protects the user's stats from being changed by enemy moves."
+   ],
+   [
+      "water-gun",
+      100,
+      40,
+      25,
+      "special",
+      0,
+      "water",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "hydro-pump",
+      80,
+      110,
+      5,
+      "special",
+      0,
+      "water",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "surf",
+      100,
+      90,
+      15,
+      "special",
+      0,
+      "water",
+      "Inflicts regular damage and can hit Dive users."
+   ],
+   [
+      "ice-beam",
+      100,
+      90,
+      10,
+      "special",
+      0,
+      "ice",
+      "Has a $effect_chance% chance to freeze the target."
+   ],
+   [
+      "blizzard",
+      70,
+      110,
+      5,
+      "special",
+      0,
+      "ice",
+      "Has a $effect_chance% chance to freeze the target."
+   ],
+   [
+      "psybeam",
+      100,
+      65,
+      20,
+      "special",
+      0,
+      "psychic",
+      "Has a $effect_chance% chance to confuse the target."
+   ],
+   [
+      "bubble-beam",
+      100,
+      65,
+      20,
+      "special",
+      0,
+      "water",
+      "Has a $effect_chance% chance to lower the target's Speed by one stage."
+   ],
+   [
+      "aurora-beam",
+      100,
+      65,
+      20,
+      "special",
+      0,
+      "ice",
+      "Has a $effect_chance% chance to lower the target's Attack by one stage."
+   ],
+   [
+      "hyper-beam",
+      90,
+      150,
+      5,
+      "special",
+      0,
+      "normal",
+      "User foregoes its next turn to recharge."
+   ],
+   [
+      "peck",
+      100,
+      35,
+      35,
+      "physical",
+      0,
+      "flying",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "drill-peck",
+      100,
+      80,
+      20,
+      "physical",
+      0,
+      "flying",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "submission",
+      80,
+      80,
+      20,
+      "physical",
+      0,
+      "fighting",
+      "User receives 1/4 the damage it inflicts in recoil."
+   ],
+   [
+      "low-kick",
+      100,
+      null,
+      20,
+      "physical",
+      0,
+      "fighting",
+      "Inflicts more damage to heavier targets, with a maximum of 120 power."
+   ],
+   [
+      "counter",
+      100,
+      null,
+      20,
+      "physical",
+      -5,
+      "fighting",
+      "Inflicts twice the damage the user received from the last physical hit it took."
+   ],
+   [
+      "seismic-toss",
+      100,
+      null,
+      20,
+      "physical",
+      0,
+      "fighting",
+      "Inflicts damage equal to the user's level."
+   ],
+   [
+      "strength",
+      100,
+      80,
+      15,
+      "physical",
+      0,
+      "normal",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "absorb",
+      100,
+      20,
+      25,
+      "special",
+      0,
+      "grass",
+      "Drains half the damage inflicted to heal the user."
+   ],
+   [
+      "mega-drain",
+      100,
+      40,
+      15,
+      "special",
+      0,
+      "grass",
+      "Drains half the damage inflicted to heal the user."
+   ],
+   [
+      "leech-seed",
+      90,
+      null,
+      10,
+      "status",
+      0,
+      "grass",
+      "Seeds the target, stealing HP from it every turn."
+   ],
+   [
+      "growth",
+      null,
+      null,
+      20,
+      "status",
+      0,
+      "normal",
+      "Raises the user's Attack and Special Attack by one stage."
+   ],
+   [
+      "razor-leaf",
+      95,
+      55,
+      25,
+      "physical",
+      0,
+      "grass",
+      "Has an increased chance for a critical hit."
+   ],
+   [
+      "solar-beam",
+      100,
+      120,
+      10,
+      "special",
+      0,
+      "grass",
+      "Requires a turn to charge before attacking."
+   ],
+   [
+      "poison-powder",
+      75,
+      null,
+      35,
+      "status",
+      0,
+      "poison",
+      "Poisons the target."
+   ],
+   [
+      "stun-spore",
+      75,
+      null,
+      30,
+      "status",
+      0,
+      "grass",
+      "Paralyzes the target."
+   ],
+   [
+      "sleep-powder",
+      75,
+      null,
+      15,
+      "status",
+      0,
+      "grass",
+      "Puts the target to sleep."
+   ],
+   [
+      "petal-dance",
+      100,
+      120,
+      10,
+      "special",
+      0,
+      "grass",
+      "Hits every turn for 2-3 turns, then confuses the user."
+   ],
+   [
+      "string-shot",
+      95,
+      null,
+      40,
+      "status",
+      0,
+      "bug",
+      "Lowers the target's Speed by two stages."
+   ],
+   [
+      "dragon-rage",
+      100,
+      null,
+      10,
+      "special",
+      0,
+      "dragon",
+      "Inflicts 40 points of damage."
+   ],
+   [
+      "fire-spin",
+      85,
+      35,
+      15,
+      "special",
+      0,
+      "fire",
+      "Prevents the target from fleeing and inflicts damage for 2-5 turns."
+   ],
+   [
+      "thunder-shock",
+      100,
+      40,
+      30,
+      "special",
+      0,
+      "electric",
+      "Has a $effect_chance% chance to paralyze the target."
+   ],
+   [
+      "thunderbolt",
+      100,
+      90,
+      15,
+      "special",
+      0,
+      "electric",
+      "Has a $effect_chance% chance to paralyze the target."
+   ],
+   [
+      "thunder-wave",
+      90,
+      null,
+      20,
+      "status",
+      0,
+      "electric",
+      "Paralyzes the target."
+   ],
+   [
+      "thunder",
+      70,
+      110,
+      10,
+      "special",
+      0,
+      "electric",
+      "Has a $effect_chance% chance to paralyze the target."
+   ],
+   [
+      "rock-throw",
+      90,
+      50,
+      15,
+      "physical",
+      0,
+      "rock",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "earthquake",
+      100,
+      100,
+      10,
+      "physical",
+      0,
+      "ground",
+      "Inflicts regular damage and can hit Dig users."
+   ],
+   [
+      "fissure",
+      30,
+      null,
+      5,
+      "physical",
+      0,
+      "ground",
+      "Causes a one-hit KO."
+   ],
+   [
+      "dig",
+      100,
+      80,
+      10,
+      "physical",
+      0,
+      "ground",
+      "User digs underground, dodging all attacks, and hits next turn."
+   ],
+   [
+      "toxic",
+      90,
+      null,
+      10,
+      "status",
+      0,
+      "poison",
+      "Badly poisons the target, inflicting more damage every turn."
+   ],
+   [
+      "confusion",
+      100,
+      50,
+      25,
+      "special",
+      0,
+      "psychic",
+      "Has a $effect_chance% chance to confuse the target."
+   ],
+   [
+      "psychic",
+      100,
+      90,
+      10,
+      "special",
+      0,
+      "psychic",
+      "Has a $effect_chance% chance to lower the target's Special Defense by one stage."
+   ],
+   [
+      "hypnosis",
+      60,
+      null,
+      20,
+      "status",
+      0,
+      "psychic",
+      "Puts the target to sleep."
+   ],
+   [
+      "meditate",
+      null,
+      null,
+      40,
+      "status",
+      0,
+      "psychic",
+      "Raises the user's Attack by one stage."
+   ],
+   [
+      "agility",
+      null,
+      null,
+      30,
+      "status",
+      0,
+      "psychic",
+      "Raises the user's Speed by two stages."
+   ],
+   [
+      "quick-attack",
+      100,
+      40,
+      30,
+      "physical",
+      1,
+      "normal",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "rage",
+      100,
+      20,
+      20,
+      "physical",
+      0,
+      "normal",
+      "If the user is hit after using this move, its Attack rises by one stage."
+   ],
+   [
+      "teleport",
+      null,
+      null,
+      20,
+      "status",
+      -6,
+      "psychic",
+      "Immediately ends wild battles.  No effect otherwise."
+   ],
+   [
+      "night-shade",
+      100,
+      null,
+      15,
+      "special",
+      0,
+      "ghost",
+      "Inflicts damage equal to the user's level."
+   ],
+   [
+      "mimic",
+      null,
+      null,
+      10,
+      "status",
+      0,
+      "normal",
+      "Copies the target's last used move."
+   ],
+   [
+      "screech",
+      85,
+      null,
+      40,
+      "status",
+      0,
+      "normal",
+      "Lowers the target's Defense by two stages."
+   ],
+   [
+      "double-team",
+      null,
+      null,
+      15,
+      "status",
+      0,
+      "normal",
+      "Raises the user's evasion by one stage."
+   ],
+   [
+      "recover",
+      null,
+      null,
+      10,
+      "status",
+      0,
+      "normal",
+      "Heals the user by half its max HP."
+   ],
+   [
+      "harden",
+      null,
+      null,
+      30,
+      "status",
+      0,
+      "normal",
+      "Raises the user's Defense by one stage."
+   ],
+   [
+      "minimize",
+      null,
+      null,
+      10,
+      "status",
+      0,
+      "normal",
+      "Raises the user's evasion by two stages."
+   ],
+   [
+      "smokescreen",
+      100,
+      null,
+      20,
+      "status",
+      0,
+      "normal",
+      "Lowers the target's accuracy by one stage."
+   ],
+   [
+      "confuse-ray",
+      100,
+      null,
+      10,
+      "status",
+      0,
+      "ghost",
+      "Confuses the target."
+   ],
+   [
+      "withdraw",
+      null,
+      null,
+      40,
+      "status",
+      0,
+      "water",
+      "Raises the user's Defense by one stage."
+   ],
+   [
+      "defense-curl",
+      null,
+      null,
+      40,
+      "status",
+      0,
+      "normal",
+      "Raises user's Defense by one stage."
+   ],
+   [
+      "barrier",
+      null,
+      null,
+      20,
+      "status",
+      0,
+      "psychic",
+      "Raises the user's Defense by two stages."
+   ],
+   [
+      "light-screen",
+      null,
+      null,
+      30,
+      "status",
+      0,
+      "psychic",
+      "Reduces damage from special attacks by 50% for five turns."
+   ],
+   [
+      "haze",
+      null,
+      null,
+      30,
+      "status",
+      0,
+      "ice",
+      "Resets all Pok\u00e9mon's stats, accuracy, and evasion."
+   ],
+   [
+      "reflect",
+      null,
+      null,
+      20,
+      "status",
+      0,
+      "psychic",
+      "Reduces damage from physical attacks by half."
+   ],
+   [
+      "focus-energy",
+      null,
+      null,
+      30,
+      "status",
+      0,
+      "normal",
+      "Increases the user's chance to score a critical hit."
+   ],
+   [
+      "bide",
+      null,
+      null,
+      10,
+      "physical",
+      1,
+      "normal",
+      "User waits for two turns, then hits back for twice the damage it took."
+   ],
+   [
+      "metronome",
+      null,
+      null,
+      10,
+      "status",
+      0,
+      "normal",
+      "Randomly selects and uses any move in the game."
+   ],
+   [
+      "mirror-move",
+      null,
+      null,
+      20,
+      "status",
+      0,
+      "flying",
+      "Uses the target's last used move."
+   ],
+   [
+      "self-destruct",
+      100,
+      200,
+      5,
+      "physical",
+      0,
+      "normal",
+      "User faints."
+   ],
+   [
+      "egg-bomb",
+      75,
+      100,
+      10,
+      "physical",
+      0,
+      "normal",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "lick",
+      100,
+      30,
+      30,
+      "physical",
+      0,
+      "ghost",
+      "Has a $effect_chance% chance to paralyze the target."
+   ],
+   [
+      "smog",
+      70,
+      30,
+      20,
+      "special",
+      0,
+      "poison",
+      "Has a $effect_chance% chance to poison the target."
+   ],
+   [
+      "sludge",
+      100,
+      65,
+      20,
+      "special",
+      0,
+      "poison",
+      "Has a $effect_chance% chance to poison the target."
+   ],
+   [
+      "bone-club",
+      85,
+      65,
+      20,
+      "physical",
+      0,
+      "ground",
+      "Has a $effect_chance% chance to make the target flinch."
+   ],
+   [
+      "fire-blast",
+      85,
+      110,
+      5,
+      "special",
+      0,
+      "fire",
+      "Has a $effect_chance% chance to burn the target."
+   ],
+   [
+      "waterfall",
+      100,
+      80,
+      15,
+      "physical",
+      0,
+      "water",
+      "Has a $effect_chance% chance to make the target flinch."
+   ],
+   [
+      "clamp",
+      85,
+      35,
+      15,
+      "physical",
+      0,
+      "water",
+      "Prevents the target from fleeing and inflicts damage for 2-5 turns."
+   ],
+   [
+      "swift",
+      null,
+      60,
+      20,
+      "special",
+      0,
+      "normal",
+      "Never misses."
+   ],
+   [
+      "skull-bash",
+      100,
+      130,
+      10,
+      "physical",
+      0,
+      "normal",
+      "Raises the user's Defense by one stage.  User charges for one turn before attacking."
+   ],
+   [
+      "spike-cannon",
+      100,
+      20,
+      15,
+      "physical",
+      0,
+      "normal",
+      "Hits 2-5 times in one turn."
+   ],
+   [
+      "constrict",
+      100,
+      10,
+      35,
+      "physical",
+      0,
+      "normal",
+      "Has a $effect_chance% chance to lower the target's Speed by one stage."
+   ],
+   [
+      "amnesia",
+      null,
+      null,
+      20,
+      "status",
+      0,
+      "psychic",
+      "Raises the user's Special Defense by two stages."
+   ],
+   [
+      "kinesis",
+      80,
+      null,
+      15,
+      "status",
+      0,
+      "psychic",
+      "Lowers the target's accuracy by one stage."
+   ],
+   [
+      "soft-boiled",
+      null,
+      null,
+      10,
+      "status",
+      0,
+      "normal",
+      "Heals the user by half its max HP."
+   ],
+   [
+      "high-jump-kick",
+      90,
+      130,
+      10,
+      "physical",
+      0,
+      "fighting",
+      "If the user misses, it takes half the damage it would have inflicted in recoil."
+   ],
+   [
+      "glare",
+      100,
+      null,
+      30,
+      "status",
+      0,
+      "normal",
+      "Paralyzes the target."
+   ],
+   [
+      "dream-eater",
+      100,
+      100,
+      15,
+      "special",
+      0,
+      "psychic",
+      "Only works on sleeping Pok\u00e9mon.  Drains half the damage inflicted to heal the user."
+   ],
+   [
+      "poison-gas",
+      90,
+      null,
+      40,
+      "status",
+      0,
+      "poison",
+      "Poisons the target."
+   ],
+   [
+      "barrage",
+      85,
+      15,
+      20,
+      "physical",
+      0,
+      "normal",
+      "Hits 2-5 times in one turn."
+   ],
+   [
+      "leech-life",
+      100,
+      80,
+      10,
+      "physical",
+      0,
+      "bug",
+      "Drains half the damage inflicted to heal the user."
+   ],
+   [
+      "lovely-kiss",
+      75,
+      null,
+      10,
+      "status",
+      0,
+      "normal",
+      "Puts the target to sleep."
+   ],
+   [
+      "sky-attack",
+      90,
+      140,
+      5,
+      "physical",
+      0,
+      "flying",
+      "User charges for one turn before attacking.  Has a $effect_chance% chance to make the target flinch."
+   ],
+   [
+      "transform",
+      null,
+      null,
+      10,
+      "status",
+      0,
+      "normal",
+      "User becomes a copy of the target until it leaves battle."
+   ],
+   [
+      "bubble",
+      100,
+      40,
+      30,
+      "special",
+      0,
+      "water",
+      "Has a $effect_chance% chance to lower the target's Speed by one stage."
+   ],
+   [
+      "dizzy-punch",
+      100,
+      70,
+      10,
+      "physical",
+      0,
+      "normal",
+      "Has a $effect_chance% chance to confuse the target."
+   ],
+   [
+      "spore",
+      100,
+      null,
+      15,
+      "status",
+      0,
+      "grass",
+      "Puts the target to sleep."
+   ],
+   [
+      "flash",
+      100,
+      null,
+      20,
+      "status",
+      0,
+      "normal",
+      "Lowers the target's accuracy by one stage."
+   ],
+   [
+      "psywave",
+      100,
+      null,
+      15,
+      "special",
+      0,
+      "psychic",
+      "Inflicts damage between 50% and 150% of the user's level."
+   ],
+   [
+      "splash",
+      null,
+      null,
+      40,
+      "status",
+      0,
+      "normal",
+      "Does nothing."
+   ],
+   [
+      "acid-armor",
+      null,
+      null,
+      20,
+      "status",
+      0,
+      "poison",
+      "Raises the user's Defense by two stages."
+   ],
+   [
+      "crabhammer",
+      90,
+      100,
+      10,
+      "physical",
+      0,
+      "water",
+      "Has an increased chance for a critical hit."
+   ],
+   [
+      "explosion",
+      100,
+      250,
+      5,
+      "physical",
+      0,
+      "normal",
+      "User faints."
+   ],
+   [
+      "fury-swipes",
+      80,
+      18,
+      15,
+      "physical",
+      0,
+      "normal",
+      "Hits 2-5 times in one turn."
+   ],
+   [
+      "bonemerang",
+      90,
+      50,
+      10,
+      "physical",
+      0,
+      "ground",
+      "Hits twice in one turn."
+   ],
+   [
+      "rest",
+      null,
+      null,
+      10,
+      "status",
+      0,
+      "psychic",
+      "User sleeps for two turns, completely healing itself."
+   ],
+   [
+      "rock-slide",
+      90,
+      75,
+      10,
+      "physical",
+      0,
+      "rock",
+      "Has a $effect_chance% chance to make the target flinch."
+   ],
+   [
+      "hyper-fang",
+      90,
+      80,
+      15,
+      "physical",
+      0,
+      "normal",
+      "Has a $effect_chance% chance to make the target flinch."
+   ],
+   [
+      "sharpen",
+      null,
+      null,
+      30,
+      "status",
+      0,
+      "normal",
+      "Raises the user's Attack by one stage."
+   ],
+   [
+      "conversion",
+      null,
+      null,
+      30,
+      "status",
+      0,
+      "normal",
+      "User's type changes to the type of one of its moves at random."
+   ],
+   [
+      "tri-attack",
+      100,
+      80,
+      10,
+      "special",
+      0,
+      "normal",
+      "Has a $effect_chance% chance to burn, freeze, or paralyze the target."
+   ],
+   [
+      "super-fang",
+      90,
+      null,
+      10,
+      "physical",
+      0,
+      "normal",
+      "Inflicts damage equal to half the target's HP."
+   ],
+   [
+      "slash",
+      100,
+      70,
+      20,
+      "physical",
+      0,
+      "normal",
+      "Has an increased chance for a critical hit."
+   ],
+   [
+      "substitute",
+      null,
+      null,
+      10,
+      "status",
+      0,
+      "normal",
+      "Transfers 1/4 of the user's max HP into a doll, protecting the user from further damage or status changes until it breaks."
+   ],
+   [
+      "struggle",
+      null,
+      50,
+      1,
+      "physical",
+      0,
+      "normal",
+      "User takes 1/4 its max HP in recoil."
+   ],
+   [
+      "sketch",
+      null,
+      null,
+      1,
+      "status",
+      0,
+      "normal",
+      "Permanently becomes the target's last used move."
+   ],
+   [
+      "triple-kick",
+      90,
+      10,
+      10,
+      "physical",
+      0,
+      "fighting",
+      "Hits three times, increasing power by 100% with each successful hit."
+   ],
+   [
+      "thief",
+      100,
+      60,
+      25,
+      "physical",
+      0,
+      "dark",
+      "Takes the target's item."
+   ],
+   [
+      "spider-web",
+      null,
+      null,
+      10,
+      "status",
+      0,
+      "bug",
+      "Prevents the target from leaving battle."
+   ],
+   [
+      "mind-reader",
+      null,
+      null,
+      5,
+      "status",
+      0,
+      "normal",
+      "Ensures that the user's next move will hit the target."
+   ],
+   [
+      "nightmare",
+      100,
+      null,
+      15,
+      "status",
+      0,
+      "ghost",
+      "Target loses 1/4 its max HP every turn as long as it's asleep."
+   ],
+   [
+      "flame-wheel",
+      100,
+      60,
+      25,
+      "physical",
+      0,
+      "fire",
+      "Has a $effect_chance% chance to burn the target.  Lets frozen Pok\u00e9mon thaw themselves."
+   ],
+   [
+      "snore",
+      100,
+      50,
+      15,
+      "special",
+      0,
+      "normal",
+      "Has a $effect_chance% chance to make the target flinch.  Only works if the user is sleeping."
+   ],
+   [
+      "curse",
+      null,
+      null,
+      10,
+      "status",
+      0,
+      "ghost",
+      "Ghosts pay half their max HP to hurt the target every turn.  Others decrease Speed but raise Attack and Defense."
+   ],
+   [
+      "flail",
+      100,
+      null,
+      15,
+      "physical",
+      0,
+      "normal",
+      "Inflicts more damage when the user has less HP remaining, with a maximum of 200 power."
+   ],
+   [
+      "conversion-2",
+      null,
+      null,
+      30,
+      "status",
+      0,
+      "normal",
+      "Changes the user's type to a random type either resistant or immune to the last move used against it."
+   ],
+   [
+      "aeroblast",
+      95,
+      100,
+      5,
+      "special",
+      0,
+      "flying",
+      "Has an increased chance for a critical hit."
+   ],
+   [
+      "cotton-spore",
+      100,
+      null,
+      40,
+      "status",
+      0,
+      "grass",
+      "Lowers the target's Speed by two stages."
+   ],
+   [
+      "reversal",
+      100,
+      null,
+      15,
+      "physical",
+      0,
+      "fighting",
+      "Inflicts more damage when the user has less HP remaining, with a maximum of 200 power."
+   ],
+   [
+      "spite",
+      100,
+      null,
+      10,
+      "status",
+      0,
+      "ghost",
+      "Lowers the PP of the target's last used move by 4."
+   ],
+   [
+      "powder-snow",
+      100,
+      40,
+      25,
+      "special",
+      0,
+      "ice",
+      "Has a $effect_chance% chance to freeze the target."
+   ],
+   [
+      "protect",
+      null,
+      null,
+      10,
+      "status",
+      4,
+      "normal",
+      "Prevents any moves from hitting the user this turn."
+   ],
+   [
+      "mach-punch",
+      100,
+      40,
+      30,
+      "physical",
+      1,
+      "fighting",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "scary-face",
+      100,
+      null,
+      10,
+      "status",
+      0,
+      "normal",
+      "Lowers the target's Speed by two stages."
+   ],
+   [
+      "feint-attack",
+      null,
+      60,
+      20,
+      "physical",
+      0,
+      "dark",
+      "Never misses."
+   ],
+   [
+      "sweet-kiss",
+      75,
+      null,
+      10,
+      "status",
+      0,
+      "fairy",
+      "Confuses the target."
+   ],
+   [
+      "belly-drum",
+      null,
+      null,
+      10,
+      "status",
+      0,
+      "normal",
+      "User pays half its max HP to max out its Attack."
+   ],
+   [
+      "sludge-bomb",
+      100,
+      90,
+      10,
+      "special",
+      0,
+      "poison",
+      "Has a $effect_chance% chance to poison the target."
+   ],
+   [
+      "mud-slap",
+      100,
+      20,
+      10,
+      "special",
+      0,
+      "ground",
+      "Has a $effect_chance% chance to lower the target's accuracy by one stage."
+   ],
+   [
+      "octazooka",
+      85,
+      65,
+      10,
+      "special",
+      0,
+      "water",
+      "Has a $effect_chance% chance to lower the target's accuracy by one stage."
+   ],
+   [
+      "spikes",
+      null,
+      null,
+      20,
+      "status",
+      0,
+      "ground",
+      "Scatters Spikes, hurting opposing Pok\u00e9mon that switch in."
+   ],
+   [
+      "zap-cannon",
+      50,
+      120,
+      5,
+      "special",
+      0,
+      "electric",
+      "Has a $effect_chance% chance to paralyze the target."
+   ],
+   [
+      "foresight",
+      null,
+      null,
+      40,
+      "status",
+      0,
+      "normal",
+      "Forces the target to have no Evade, and allows it to be hit by Normal and Fighting moves even if it's a Ghost."
+   ],
+   [
+      "destiny-bond",
+      null,
+      null,
+      5,
+      "status",
+      0,
+      "ghost",
+      "If the user faints this turn, the target automatically will, too."
+   ],
+   [
+      "perish-song",
+      null,
+      null,
+      5,
+      "status",
+      0,
+      "normal",
+      "User and target both faint after three turns."
+   ],
+   [
+      "icy-wind",
+      95,
+      55,
+      15,
+      "special",
+      0,
+      "ice",
+      "Has a $effect_chance% chance to lower the target's Speed by one stage."
+   ],
+   [
+      "detect",
+      null,
+      null,
+      5,
+      "status",
+      4,
+      "fighting",
+      "Prevents any moves from hitting the user this turn."
+   ],
+   [
+      "bone-rush",
+      90,
+      25,
+      10,
+      "physical",
+      0,
+      "ground",
+      "Hits 2-5 times in one turn."
+   ],
+   [
+      "lock-on",
+      null,
+      null,
+      5,
+      "status",
+      0,
+      "normal",
+      "Ensures that the user's next move will hit the target."
+   ],
+   [
+      "outrage",
+      100,
+      120,
+      10,
+      "physical",
+      0,
+      "dragon",
+      "Hits every turn for 2-3 turns, then confuses the user."
+   ],
+   [
+      "sandstorm",
+      null,
+      null,
+      10,
+      "status",
+      0,
+      "rock",
+      "Changes the weather to a sandstorm for five turns."
+   ],
+   [
+      "giga-drain",
+      100,
+      75,
+      10,
+      "special",
+      0,
+      "grass",
+      "Drains half the damage inflicted to heal the user."
+   ],
+   [
+      "endure",
+      null,
+      null,
+      10,
+      "status",
+      4,
+      "normal",
+      "Prevents the user's HP from lowering below 1 this turn."
+   ],
+   [
+      "charm",
+      100,
+      null,
+      20,
+      "status",
+      0,
+      "fairy",
+      "Lowers the target's Attack by two stages."
+   ],
+   [
+      "rollout",
+      90,
+      30,
+      20,
+      "physical",
+      0,
+      "rock",
+      "Power doubles every turn this move is used in succession after the first, resetting after five turns."
+   ],
+   [
+      "false-swipe",
+      100,
+      40,
+      40,
+      "physical",
+      0,
+      "normal",
+      "Cannot lower the target's HP below 1."
+   ],
+   [
+      "swagger",
+      85,
+      null,
+      15,
+      "status",
+      0,
+      "normal",
+      "Raises the target's Attack by two stages and confuses the target."
+   ],
+   [
+      "milk-drink",
+      null,
+      null,
+      10,
+      "status",
+      0,
+      "normal",
+      "Heals the user by half its max HP."
+   ],
+   [
+      "spark",
+      100,
+      65,
+      20,
+      "physical",
+      0,
+      "electric",
+      "Has a $effect_chance% chance to paralyze the target."
+   ],
+   [
+      "fury-cutter",
+      95,
+      40,
+      20,
+      "physical",
+      0,
+      "bug",
+      "Power doubles every turn this move is used in succession after the first, maxing out after five turns."
+   ],
+   [
+      "steel-wing",
+      90,
+      70,
+      25,
+      "physical",
+      0,
+      "steel",
+      "Has a $effect_chance% chance to raise the user's Defense by one stage."
+   ],
+   [
+      "mean-look",
+      null,
+      null,
+      5,
+      "status",
+      0,
+      "normal",
+      "Prevents the target from leaving battle."
+   ],
+   [
+      "attract",
+      100,
+      null,
+      15,
+      "status",
+      0,
+      "normal",
+      "Target falls in love if it has the opposite gender, and has a 50% chance to refuse attacking the user."
+   ],
+   [
+      "sleep-talk",
+      null,
+      null,
+      10,
+      "status",
+      0,
+      "normal",
+      "Randomly uses one of the user's other three moves.  Only works if the user is sleeping."
+   ],
+   [
+      "heal-bell",
+      null,
+      null,
+      5,
+      "status",
+      0,
+      "normal",
+      "Cures the entire party of major status effects."
+   ],
+   [
+      "return",
+      100,
+      null,
+      20,
+      "physical",
+      0,
+      "normal",
+      "Power increases with happiness, up to a maximum of 102."
+   ],
+   [
+      "present",
+      90,
+      null,
+      15,
+      "physical",
+      0,
+      "normal",
+      "Randomly inflicts damage with power from 40 to 120 or heals the target for 1/4 its max HP."
+   ],
+   [
+      "frustration",
+      100,
+      null,
+      20,
+      "physical",
+      0,
+      "normal",
+      "Power increases as happiness decreases, up to a maximum of 102."
+   ],
+   [
+      "safeguard",
+      null,
+      null,
+      25,
+      "status",
+      0,
+      "normal",
+      "Protects the user's field from major status ailments and confusion for five turns."
+   ],
+   [
+      "pain-split",
+      null,
+      null,
+      20,
+      "status",
+      0,
+      "normal",
+      "Sets the user's and targets's HP to the average of their current HP."
+   ],
+   [
+      "sacred-fire",
+      95,
+      100,
+      5,
+      "physical",
+      0,
+      "fire",
+      "Has a $effect_chance% chance to burn the target.  Lets frozen Pok\u00e9mon thaw themselves."
+   ],
+   [
+      "magnitude",
+      100,
+      null,
+      30,
+      "physical",
+      0,
+      "ground",
+      "Power varies randomly from 10 to 150."
+   ],
+   [
+      "dynamic-punch",
+      50,
+      100,
+      5,
+      "physical",
+      0,
+      "fighting",
+      "Has a $effect_chance% chance to confuse the target."
+   ],
+   [
+      "megahorn",
+      85,
+      120,
+      10,
+      "physical",
+      0,
+      "bug",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "dragon-breath",
+      100,
+      60,
+      20,
+      "special",
+      0,
+      "dragon",
+      "Has a $effect_chance% chance to paralyze the target."
+   ],
+   [
+      "baton-pass",
+      null,
+      null,
+      40,
+      "status",
+      0,
+      "normal",
+      "Allows the trainer to switch out the user and pass effects along to its replacement."
+   ],
+   [
+      "encore",
+      100,
+      null,
+      5,
+      "status",
+      0,
+      "normal",
+      "Forces the target to repeat its last used move every turn for 2 to 6 turns."
+   ],
+   [
+      "pursuit",
+      100,
+      40,
+      20,
+      "physical",
+      0,
+      "dark",
+      "Has double power against, and can hit, Pok\u00e9mon attempting to switch out."
+   ],
+   [
+      "rapid-spin",
+      100,
+      50,
+      40,
+      "physical",
+      0,
+      "normal",
+      "Frees the user from binding moves, removes Leech Seed, and blows away Spikes."
+   ],
+   [
+      "sweet-scent",
+      100,
+      null,
+      20,
+      "status",
+      0,
+      "normal",
+      "Lowers the target's evasion by one stage."
+   ],
+   [
+      "iron-tail",
+      75,
+      100,
+      15,
+      "physical",
+      0,
+      "steel",
+      "Has a $effect_chance% chance to lower the target's Defense by one stage."
+   ],
+   [
+      "metal-claw",
+      95,
+      50,
+      35,
+      "physical",
+      0,
+      "steel",
+      "Has a $effect_chance% chance to raise the user's Attack by one stage."
+   ],
+   [
+      "vital-throw",
+      null,
+      70,
+      10,
+      "physical",
+      -1,
+      "fighting",
+      "Never misses."
+   ],
+   [
+      "morning-sun",
+      null,
+      null,
+      5,
+      "status",
+      0,
+      "normal",
+      "Heals the user by half its max HP.  Affected by weather."
+   ],
+   [
+      "synthesis",
+      null,
+      null,
+      5,
+      "status",
+      0,
+      "grass",
+      "Heals the user by half its max HP.  Affected by weather."
+   ],
+   [
+      "moonlight",
+      null,
+      null,
+      5,
+      "status",
+      0,
+      "fairy",
+      "Heals the user by half its max HP.  Affected by weather."
+   ],
+   [
+      "hidden-power",
+      100,
+      60,
+      15,
+      "special",
+      0,
+      "normal",
+      "Power and type depend upon user's IVs.  Power can range from 30 to 70."
+   ],
+   [
+      "cross-chop",
+      80,
+      100,
+      5,
+      "physical",
+      0,
+      "fighting",
+      "Has an increased chance for a critical hit."
+   ],
+   [
+      "twister",
+      100,
+      40,
+      20,
+      "special",
+      0,
+      "dragon",
+      "Has a $effect_chance% chance to make the target flinch."
+   ],
+   [
+      "rain-dance",
+      null,
+      null,
+      5,
+      "status",
+      0,
+      "water",
+      "Changes the weather to rain for five turns."
+   ],
+   [
+      "sunny-day",
+      null,
+      null,
+      5,
+      "status",
+      0,
+      "fire",
+      "Changes the weather to sunny for five turns."
+   ],
+   [
+      "crunch",
+      100,
+      80,
+      15,
+      "physical",
+      0,
+      "dark",
+      "Has a $effect_chance% chance to lower the target's Defense by one stage."
+   ],
+   [
+      "mirror-coat",
+      100,
+      null,
+      20,
+      "special",
+      -5,
+      "psychic",
+      "Inflicts twice the damage the user received from the last special hit it took."
+   ],
+   [
+      "psych-up",
+      null,
+      null,
+      10,
+      "status",
+      0,
+      "normal",
+      "Discards the user's stat changes and copies the target's."
+   ],
+   [
+      "extreme-speed",
+      100,
+      80,
+      5,
+      "physical",
+      2,
+      "normal",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "ancient-power",
+      100,
+      60,
+      5,
+      "special",
+      0,
+      "rock",
+      "Has a $effect_chance% chance to raise all of the user's stats by one stage."
+   ],
+   [
+      "shadow-ball",
+      100,
+      80,
+      15,
+      "special",
+      0,
+      "ghost",
+      "Has a $effect_chance% chance to lower the target's Special Defense by one stage."
+   ],
+   [
+      "future-sight",
+      100,
+      120,
+      10,
+      "special",
+      0,
+      "psychic",
+      "Hits the target two turns later."
+   ],
+   [
+      "rock-smash",
+      100,
+      40,
+      15,
+      "physical",
+      0,
+      "fighting",
+      "Has a $effect_chance% chance to lower the target's Defense by one stage."
+   ],
+   [
+      "whirlpool",
+      85,
+      35,
+      15,
+      "special",
+      0,
+      "water",
+      "Prevents the target from leaving battle and inflicts 1/16 its max HP in damage for 2-5 turns."
+   ],
+   [
+      "beat-up",
+      100,
+      null,
+      10,
+      "physical",
+      0,
+      "dark",
+      "Hits once for every conscious Pok\u00e9mon the trainer has."
+   ],
+   [
+      "fake-out",
+      100,
+      40,
+      10,
+      "physical",
+      3,
+      "normal",
+      "Can only be used as the first move after the user enters battle.  Causes the target to flinch."
+   ],
+   [
+      "uproar",
+      100,
+      90,
+      10,
+      "special",
+      0,
+      "normal",
+      "Forced to use this move for several turns.  Pok\u00e9mon cannot fall asleep in that time."
+   ],
+   [
+      "stockpile",
+      null,
+      null,
+      20,
+      "status",
+      0,
+      "normal",
+      "Stores energy up to three times for use with Spit Up and Swallow."
+   ],
+   [
+      "spit-up",
+      100,
+      null,
+      10,
+      "special",
+      0,
+      "normal",
+      "Power is 100 times the amount of energy Stockpiled."
+   ],
+   [
+      "swallow",
+      null,
+      null,
+      10,
+      "status",
+      0,
+      "normal",
+      "Recovers 1/4 HP after one Stockpile, 1/2 HP after two Stockpiles, or full HP after three Stockpiles."
+   ],
+   [
+      "heat-wave",
+      90,
+      95,
+      10,
+      "special",
+      0,
+      "fire",
+      "Has a $effect_chance% chance to burn the target."
+   ],
+   [
+      "hail",
+      null,
+      null,
+      10,
+      "status",
+      0,
+      "ice",
+      "Changes the weather to a hailstorm for five turns."
+   ],
+   [
+      "torment",
+      100,
+      null,
+      15,
+      "status",
+      0,
+      "dark",
+      "Prevents the target from using the same move twice in a row."
+   ],
+   [
+      "flatter",
+      100,
+      null,
+      15,
+      "status",
+      0,
+      "dark",
+      "Raises the target's Special Attack by one stage and confuses the target."
+   ],
+   [
+      "will-o-wisp",
+      85,
+      null,
+      15,
+      "status",
+      0,
+      "fire",
+      "Burns the target."
+   ],
+   [
+      "memento",
+      100,
+      null,
+      10,
+      "status",
+      0,
+      "dark",
+      "Lowers the target's Attack and Special Attack by two stages.  User faints."
+   ],
+   [
+      "facade",
+      100,
+      70,
+      20,
+      "physical",
+      0,
+      "normal",
+      "Power doubles if user is burned, paralyzed, or poisoned."
+   ],
+   [
+      "focus-punch",
+      100,
+      150,
+      20,
+      "physical",
+      -3,
+      "fighting",
+      "If the user takes damage before attacking, the attack is canceled."
+   ],
+   [
+      "smelling-salts",
+      100,
+      70,
+      10,
+      "physical",
+      0,
+      "normal",
+      "If the target is paralyzed, inflicts double damage and cures the paralysis."
+   ],
+   [
+      "follow-me",
+      null,
+      null,
+      20,
+      "status",
+      2,
+      "normal",
+      "Redirects the target's single-target effects to the user for this turn."
+   ],
+   [
+      "nature-power",
+      null,
+      null,
+      20,
+      "status",
+      0,
+      "normal",
+      "Uses a move which depends upon the terrain."
+   ],
+   [
+      "charge",
+      null,
+      null,
+      20,
+      "status",
+      0,
+      "electric",
+      "Raises the user's Special Defense by one stage.  User's Electric moves have doubled power next turn."
+   ],
+   [
+      "taunt",
+      100,
+      null,
+      20,
+      "status",
+      0,
+      "dark",
+      "For the next few turns, the target can only use damaging moves."
+   ],
+   [
+      "helping-hand",
+      null,
+      null,
+      20,
+      "status",
+      5,
+      "normal",
+      "Ally's next move inflicts half more damage."
+   ],
+   [
+      "trick",
+      100,
+      null,
+      10,
+      "status",
+      0,
+      "psychic",
+      "User and target swap items."
+   ],
+   [
+      "role-play",
+      null,
+      null,
+      10,
+      "status",
+      0,
+      "psychic",
+      "Copies the target's ability."
+   ],
+   [
+      "wish",
+      null,
+      null,
+      10,
+      "status",
+      0,
+      "normal",
+      "User will recover half its max HP at the end of the next turn."
+   ],
+   [
+      "assist",
+      null,
+      null,
+      20,
+      "status",
+      0,
+      "normal",
+      "Randomly selects and uses one of the trainer's other Pok\u00e9mon's moves."
+   ],
+   [
+      "ingrain",
+      null,
+      null,
+      20,
+      "status",
+      0,
+      "grass",
+      "Prevents the user from leaving battle.  User regains 1/16 of its max HP every turn."
+   ],
+   [
+      "superpower",
+      100,
+      120,
+      5,
+      "physical",
+      0,
+      "fighting",
+      "Lowers the user's Attack and Defense by one stage after inflicting damage."
+   ],
+   [
+      "magic-coat",
+      null,
+      null,
+      15,
+      "status",
+      4,
+      "psychic",
+      "Reflects back the first effect move used on the user this turn."
+   ],
+   [
+      "recycle",
+      null,
+      null,
+      10,
+      "status",
+      0,
+      "normal",
+      "User recovers the item it last used up."
+   ],
+   [
+      "revenge",
+      100,
+      60,
+      10,
+      "physical",
+      -4,
+      "fighting",
+      "Inflicts double damage if the user takes damage before attacking this turn."
+   ],
+   [
+      "brick-break",
+      100,
+      75,
+      15,
+      "physical",
+      0,
+      "fighting",
+      "Destroys Reflect and Light Screen."
+   ],
+   [
+      "yawn",
+      null,
+      null,
+      10,
+      "status",
+      0,
+      "normal",
+      "Target sleeps at the end of the next turn."
+   ],
+   [
+      "knock-off",
+      100,
+      65,
+      20,
+      "physical",
+      0,
+      "dark",
+      "Target drops its held item."
+   ],
+   [
+      "endeavor",
+      100,
+      null,
+      5,
+      "physical",
+      0,
+      "normal",
+      "Lowers the target's HP to equal the user's."
+   ],
+   [
+      "eruption",
+      100,
+      150,
+      5,
+      "special",
+      0,
+      "fire",
+      "Inflicts more damage when the user has more HP remaining, with a maximum of 150 power."
+   ],
+   [
+      "skill-swap",
+      null,
+      null,
+      10,
+      "status",
+      0,
+      "psychic",
+      "User and target swap abilities."
+   ],
+   [
+      "imprison",
+      null,
+      null,
+      10,
+      "status",
+      0,
+      "psychic",
+      "Prevents the target from using any moves that the user also knows."
+   ],
+   [
+      "refresh",
+      null,
+      null,
+      20,
+      "status",
+      0,
+      "normal",
+      "Cleanses the user of a burn, paralysis, or poison."
+   ],
+   [
+      "grudge",
+      null,
+      null,
+      5,
+      "status",
+      0,
+      "ghost",
+      "If the user faints this turn, the PP of the move that fainted it drops to 0."
+   ],
+   [
+      "snatch",
+      null,
+      null,
+      10,
+      "status",
+      4,
+      "dark",
+      "Steals the target's move, if it's self-targeted."
+   ],
+   [
+      "secret-power",
+      100,
+      70,
+      20,
+      "physical",
+      0,
+      "normal",
+      "Has a $effect_chance% chance to inflict a status effect which depends upon the terrain."
+   ],
+   [
+      "dive",
+      100,
+      80,
+      10,
+      "physical",
+      0,
+      "water",
+      "User dives underwater, dodging all attacks, and hits next turn."
+   ],
+   [
+      "arm-thrust",
+      100,
+      15,
+      20,
+      "physical",
+      0,
+      "fighting",
+      "Hits 2-5 times in one turn."
+   ],
+   [
+      "camouflage",
+      null,
+      null,
+      20,
+      "status",
+      0,
+      "normal",
+      "User's type changes to match the terrain."
+   ],
+   [
+      "tail-glow",
+      null,
+      null,
+      20,
+      "status",
+      0,
+      "bug",
+      "Raises the user's Special Attack by three stages."
+   ],
+   [
+      "luster-purge",
+      100,
+      70,
+      5,
+      "special",
+      0,
+      "psychic",
+      "Has a $effect_chance% chance to lower the target's Special Defense by one stage."
+   ],
+   [
+      "mist-ball",
+      100,
+      70,
+      5,
+      "special",
+      0,
+      "psychic",
+      "Has a $effect_chance% chance to lower the target's Special Attack by one stage."
+   ],
+   [
+      "feather-dance",
+      100,
+      null,
+      15,
+      "status",
+      0,
+      "flying",
+      "Lowers the target's Attack by two stages."
+   ],
+   [
+      "teeter-dance",
+      100,
+      null,
+      20,
+      "status",
+      0,
+      "normal",
+      "Confuses the target."
+   ],
+   [
+      "blaze-kick",
+      90,
+      85,
+      10,
+      "physical",
+      0,
+      "fire",
+      "Has an increased chance for a critical hit and a $effect_chance% chance to burn the target."
+   ],
+   [
+      "mud-sport",
+      null,
+      null,
+      15,
+      "status",
+      0,
+      "ground",
+      "Halves all Electric-type damage."
+   ],
+   [
+      "ice-ball",
+      90,
+      30,
+      20,
+      "physical",
+      0,
+      "ice",
+      "Power doubles every turn this move is used in succession after the first, resetting after five turns."
+   ],
+   [
+      "needle-arm",
+      100,
+      60,
+      15,
+      "physical",
+      0,
+      "grass",
+      "Has a $effect_chance% chance to make the target flinch."
+   ],
+   [
+      "slack-off",
+      null,
+      null,
+      10,
+      "status",
+      0,
+      "normal",
+      "Heals the user by half its max HP."
+   ],
+   [
+      "hyper-voice",
+      100,
+      90,
+      10,
+      "special",
+      0,
+      "normal",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "poison-fang",
+      100,
+      50,
+      15,
+      "physical",
+      0,
+      "poison",
+      "Has a $effect_chance% chance to badly poison the target."
+   ],
+   [
+      "crush-claw",
+      95,
+      75,
+      10,
+      "physical",
+      0,
+      "normal",
+      "Has a $effect_chance% chance to lower the target's Defense by one stage."
+   ],
+   [
+      "blast-burn",
+      90,
+      150,
+      5,
+      "special",
+      0,
+      "fire",
+      "User foregoes its next turn to recharge."
+   ],
+   [
+      "hydro-cannon",
+      90,
+      150,
+      5,
+      "special",
+      0,
+      "water",
+      "User foregoes its next turn to recharge."
+   ],
+   [
+      "meteor-mash",
+      90,
+      90,
+      10,
+      "physical",
+      0,
+      "steel",
+      "Has a $effect_chance% chance to raise the user's Attack by one stage."
+   ],
+   [
+      "astonish",
+      100,
+      30,
+      15,
+      "physical",
+      0,
+      "ghost",
+      "Has a $effect_chance% chance to make the target flinch."
+   ],
+   [
+      "weather-ball",
+      100,
+      50,
+      10,
+      "special",
+      0,
+      "normal",
+      "If there be weather, this move has doubled power and the weather's type."
+   ],
+   [
+      "aromatherapy",
+      null,
+      null,
+      5,
+      "status",
+      0,
+      "grass",
+      "Cures the entire party of major status effects."
+   ],
+   [
+      "fake-tears",
+      100,
+      null,
+      20,
+      "status",
+      0,
+      "dark",
+      "Lowers the target's Special Defense by two stages."
+   ],
+   [
+      "air-cutter",
+      95,
+      60,
+      25,
+      "special",
+      0,
+      "flying",
+      "Has an increased chance for a critical hit."
+   ],
+   [
+      "overheat",
+      90,
+      130,
+      5,
+      "special",
+      0,
+      "fire",
+      "Lowers the user's Special Attack by two stages after inflicting damage."
+   ],
+   [
+      "odor-sleuth",
+      null,
+      null,
+      40,
+      "status",
+      0,
+      "normal",
+      "Forces the target to have no Evade, and allows it to be hit by Normal and Fighting moves even if it's a Ghost."
+   ],
+   [
+      "rock-tomb",
+      95,
+      60,
+      15,
+      "physical",
+      0,
+      "rock",
+      "Has a $effect_chance% chance to lower the target's Speed by one stage."
+   ],
+   [
+      "silver-wind",
+      100,
+      60,
+      5,
+      "special",
+      0,
+      "bug",
+      "Has a $effect_chance% chance to raise all of the user's stats by one stage."
+   ],
+   [
+      "metal-sound",
+      85,
+      null,
+      40,
+      "status",
+      0,
+      "steel",
+      "Lowers the target's Special Defense by two stages."
+   ],
+   [
+      "grass-whistle",
+      55,
+      null,
+      15,
+      "status",
+      0,
+      "grass",
+      "Puts the target to sleep."
+   ],
+   [
+      "tickle",
+      100,
+      null,
+      20,
+      "status",
+      0,
+      "normal",
+      "Lowers the target's Attack and Defense by one stage."
+   ],
+   [
+      "cosmic-power",
+      null,
+      null,
+      20,
+      "status",
+      0,
+      "psychic",
+      "Raises the user's Defense and Special Defense by one stage."
+   ],
+   [
+      "water-spout",
+      100,
+      150,
+      5,
+      "special",
+      0,
+      "water",
+      "Inflicts more damage when the user has more HP remaining, with a maximum of 150 power."
+   ],
+   [
+      "signal-beam",
+      100,
+      75,
+      15,
+      "special",
+      0,
+      "bug",
+      "Has a $effect_chance% chance to confuse the target."
+   ],
+   [
+      "shadow-punch",
+      null,
+      60,
+      20,
+      "physical",
+      0,
+      "ghost",
+      "Never misses."
+   ],
+   [
+      "extrasensory",
+      100,
+      80,
+      20,
+      "special",
+      0,
+      "psychic",
+      "Has a $effect_chance% chance to make the target flinch."
+   ],
+   [
+      "sky-uppercut",
+      90,
+      85,
+      15,
+      "physical",
+      0,
+      "fighting",
+      "Inflicts regular damage and can hit Bounce and Fly users."
+   ],
+   [
+      "sand-tomb",
+      85,
+      35,
+      15,
+      "physical",
+      0,
+      "ground",
+      "Prevents the target from fleeing and inflicts damage for 2-5 turns."
+   ],
+   [
+      "sheer-cold",
+      30,
+      null,
+      5,
+      "special",
+      0,
+      "ice",
+      "Causes a one-hit KO."
+   ],
+   [
+      "muddy-water",
+      85,
+      90,
+      10,
+      "special",
+      0,
+      "water",
+      "Has a $effect_chance% chance to lower the target's accuracy by one stage."
+   ],
+   [
+      "bullet-seed",
+      100,
+      25,
+      30,
+      "physical",
+      0,
+      "grass",
+      "Hits 2-5 times in one turn."
+   ],
+   [
+      "aerial-ace",
+      null,
+      60,
+      20,
+      "physical",
+      0,
+      "flying",
+      "Never misses."
+   ],
+   [
+      "icicle-spear",
+      100,
+      25,
+      30,
+      "physical",
+      0,
+      "ice",
+      "Hits 2-5 times in one turn."
+   ],
+   [
+      "iron-defense",
+      null,
+      null,
+      15,
+      "status",
+      0,
+      "steel",
+      "Raises the user's Defense by two stages."
+   ],
+   [
+      "block",
+      null,
+      null,
+      5,
+      "status",
+      0,
+      "normal",
+      "Prevents the target from leaving battle."
+   ],
+   [
+      "howl",
+      null,
+      null,
+      40,
+      "status",
+      0,
+      "normal",
+      "Raises the user's Attack by one stage."
+   ],
+   [
+      "dragon-claw",
+      100,
+      80,
+      15,
+      "physical",
+      0,
+      "dragon",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "frenzy-plant",
+      90,
+      150,
+      5,
+      "special",
+      0,
+      "grass",
+      "User foregoes its next turn to recharge."
+   ],
+   [
+      "bulk-up",
+      null,
+      null,
+      20,
+      "status",
+      0,
+      "fighting",
+      "Raises the user's Attack and Defense by one stage."
+   ],
+   [
+      "bounce",
+      85,
+      85,
+      5,
+      "physical",
+      0,
+      "flying",
+      "User bounces high into the air, dodging all attacks, and hits next turn."
+   ],
+   [
+      "mud-shot",
+      95,
+      55,
+      15,
+      "special",
+      0,
+      "ground",
+      "Has a $effect_chance% chance to lower the target's Speed by one stage."
+   ],
+   [
+      "poison-tail",
+      100,
+      50,
+      25,
+      "physical",
+      0,
+      "poison",
+      "Has an increased chance for a critical hit and a $effect_chance% chance to poison the target."
+   ],
+   [
+      "covet",
+      100,
+      60,
+      25,
+      "physical",
+      0,
+      "normal",
+      "Takes the target's item."
+   ],
+   [
+      "volt-tackle",
+      100,
+      120,
+      15,
+      "physical",
+      0,
+      "electric",
+      "User takes 1/3 the damage inflicted in recoil.  Has a $effect_chance% chance to paralyze the target."
+   ],
+   [
+      "magical-leaf",
+      null,
+      60,
+      20,
+      "special",
+      0,
+      "grass",
+      "Never misses."
+   ],
+   [
+      "water-sport",
+      null,
+      null,
+      15,
+      "status",
+      0,
+      "water",
+      "Halves all Fire-type damage."
+   ],
+   [
+      "calm-mind",
+      null,
+      null,
+      20,
+      "status",
+      0,
+      "psychic",
+      "Raises the user's Special Attack and Special Defense by one stage."
+   ],
+   [
+      "leaf-blade",
+      100,
+      90,
+      15,
+      "physical",
+      0,
+      "grass",
+      "Has an increased chance for a critical hit."
+   ],
+   [
+      "dragon-dance",
+      null,
+      null,
+      20,
+      "status",
+      0,
+      "dragon",
+      "Raises the user's Attack and Speed by one stage."
+   ],
+   [
+      "rock-blast",
+      90,
+      25,
+      10,
+      "physical",
+      0,
+      "rock",
+      "Hits 2-5 times in one turn."
+   ],
+   [
+      "shock-wave",
+      null,
+      60,
+      20,
+      "special",
+      0,
+      "electric",
+      "Never misses."
+   ],
+   [
+      "water-pulse",
+      100,
+      60,
+      20,
+      "special",
+      0,
+      "water",
+      "Has a $effect_chance% chance to confuse the target."
+   ],
+   [
+      "doom-desire",
+      100,
+      140,
+      5,
+      "special",
+      0,
+      "steel",
+      "Hits the target two turns later."
+   ],
+   [
+      "psycho-boost",
+      90,
+      140,
+      5,
+      "special",
+      0,
+      "psychic",
+      "Lowers the user's Special Attack by two stages after inflicting damage."
+   ],
+   [
+      "roost",
+      null,
+      null,
+      10,
+      "status",
+      0,
+      "flying",
+      "Heals the user by half its max HP."
+   ],
+   [
+      "gravity",
+      null,
+      null,
+      5,
+      "status",
+      0,
+      "psychic",
+      "Disables moves and immunities that involve flying or levitating for five turns."
+   ],
+   [
+      "miracle-eye",
+      null,
+      null,
+      40,
+      "status",
+      0,
+      "psychic",
+      "Forces the target to have no evasion, and allows it to be hit by Psychic moves even if it's Dark."
+   ],
+   [
+      "wake-up-slap",
+      100,
+      70,
+      10,
+      "physical",
+      0,
+      "fighting",
+      "If the target is asleep, has double power and wakes it up."
+   ],
+   [
+      "hammer-arm",
+      90,
+      100,
+      10,
+      "physical",
+      0,
+      "fighting",
+      "Lowers user's Speed by one stage."
+   ],
+   [
+      "gyro-ball",
+      100,
+      null,
+      5,
+      "physical",
+      0,
+      "steel",
+      "Power raises when the user has lower Speed, up to a maximum of 150."
+   ],
+   [
+      "healing-wish",
+      null,
+      null,
+      10,
+      "status",
+      0,
+      "psychic",
+      "User faints.  Its replacement has its HP fully restored and any major status effect removed."
+   ],
+   [
+      "brine",
+      100,
+      65,
+      10,
+      "special",
+      0,
+      "water",
+      "Has double power against Pok\u00e9mon that have less than half their max HP remaining."
+   ],
+   [
+      "natural-gift",
+      100,
+      null,
+      15,
+      "physical",
+      0,
+      "normal",
+      "Power and type depend on the held berry."
+   ],
+   [
+      "feint",
+      100,
+      30,
+      10,
+      "physical",
+      2,
+      "normal",
+      "Hits through Protect and Detect."
+   ],
+   [
+      "pluck",
+      100,
+      60,
+      20,
+      "physical",
+      0,
+      "flying",
+      "If target has a berry, inflicts double damage and uses the berry."
+   ],
+   [
+      "tailwind",
+      null,
+      null,
+      15,
+      "status",
+      0,
+      "flying",
+      "For three turns, friendly Pok\u00e9mon have doubled Speed."
+   ],
+   [
+      "acupressure",
+      null,
+      null,
+      30,
+      "status",
+      0,
+      "normal",
+      "Raises one of a friendly Pok\u00e9mon's stats at random by two stages."
+   ],
+   [
+      "metal-burst",
+      100,
+      null,
+      10,
+      "physical",
+      0,
+      "steel",
+      "Strikes back at the last Pok\u00e9mon to hit the user this turn with 1.5\u00d7 the damage."
+   ],
+   [
+      "u-turn",
+      100,
+      70,
+      20,
+      "physical",
+      0,
+      "bug",
+      "User must switch out after attacking."
+   ],
+   [
+      "close-combat",
+      100,
+      120,
+      5,
+      "physical",
+      0,
+      "fighting",
+      "Lowers the user's Defense and Special Defense by one stage after inflicting damage."
+   ],
+   [
+      "payback",
+      100,
+      50,
+      10,
+      "physical",
+      0,
+      "dark",
+      "Power is doubled if the target has already moved this turn."
+   ],
+   [
+      "assurance",
+      100,
+      60,
+      10,
+      "physical",
+      0,
+      "dark",
+      "Power is doubled if the target has already received damage this turn."
+   ],
+   [
+      "embargo",
+      100,
+      null,
+      15,
+      "status",
+      0,
+      "dark",
+      "Target cannot use held items."
+   ],
+   [
+      "fling",
+      100,
+      null,
+      10,
+      "physical",
+      0,
+      "dark",
+      "Throws held item at the target; power depends on the item."
+   ],
+   [
+      "psycho-shift",
+      100,
+      null,
+      10,
+      "status",
+      0,
+      "psychic",
+      "Transfers the user's major status effect to the target."
+   ],
+   [
+      "trump-card",
+      null,
+      null,
+      5,
+      "special",
+      0,
+      "normal",
+      "Power increases when this move has less PP, up to a maximum of 200."
+   ],
+   [
+      "heal-block",
+      100,
+      null,
+      15,
+      "status",
+      0,
+      "psychic",
+      "Prevents target from restoring its HP for five turns."
+   ],
+   [
+      "wring-out",
+      100,
+      null,
+      5,
+      "special",
+      0,
+      "normal",
+      "Power increases against targets with more HP remaining, up to a maximum of 121 power."
+   ],
+   [
+      "power-trick",
+      null,
+      null,
+      10,
+      "status",
+      0,
+      "psychic",
+      "User swaps Attack and Defense."
+   ],
+   [
+      "gastro-acid",
+      100,
+      null,
+      10,
+      "status",
+      0,
+      "poison",
+      "Nullifies target's ability until it leaves battle."
+   ],
+   [
+      "lucky-chant",
+      null,
+      null,
+      30,
+      "status",
+      0,
+      "normal",
+      "Prevents the target from scoring critical hits for five turns."
+   ],
+   [
+      "me-first",
+      null,
+      null,
+      20,
+      "status",
+      0,
+      "normal",
+      "Uses the target's move against it before it attacks, with power increased by half."
+   ],
+   [
+      "copycat",
+      null,
+      null,
+      20,
+      "status",
+      0,
+      "normal",
+      "Uses the target's last used move."
+   ],
+   [
+      "power-swap",
+      null,
+      null,
+      10,
+      "status",
+      0,
+      "psychic",
+      "User swaps Attack and Special Attack changes with the target."
+   ],
+   [
+      "guard-swap",
+      null,
+      null,
+      10,
+      "status",
+      0,
+      "psychic",
+      "User swaps Defense and Special Defense changes with the target."
+   ],
+   [
+      "punishment",
+      100,
+      null,
+      5,
+      "physical",
+      0,
+      "dark",
+      "Power increases against targets with more raised stats, up to a maximum of 200."
+   ],
+   [
+      "last-resort",
+      100,
+      140,
+      5,
+      "physical",
+      0,
+      "normal",
+      "Can only be used after all of the user's other moves have been used."
+   ],
+   [
+      "worry-seed",
+      100,
+      null,
+      10,
+      "status",
+      0,
+      "grass",
+      "Changes the target's ability to Insomnia."
+   ],
+   [
+      "sucker-punch",
+      100,
+      70,
+      5,
+      "physical",
+      1,
+      "dark",
+      "Only works if the target is about to use a damaging move."
+   ],
+   [
+      "toxic-spikes",
+      null,
+      null,
+      20,
+      "status",
+      0,
+      "poison",
+      "Scatters poisoned spikes, poisoning opposing Pok\u00e9mon that switch in."
+   ],
+   [
+      "heart-swap",
+      null,
+      null,
+      10,
+      "status",
+      0,
+      "psychic",
+      "User and target swap stat changes."
+   ],
+   [
+      "aqua-ring",
+      null,
+      null,
+      20,
+      "status",
+      0,
+      "water",
+      "Restores 1/16 of the user's max HP each turn."
+   ],
+   [
+      "magnet-rise",
+      null,
+      null,
+      10,
+      "status",
+      0,
+      "electric",
+      "User is immune to Ground moves and effects for five turns."
+   ],
+   [
+      "flare-blitz",
+      100,
+      120,
+      15,
+      "physical",
+      0,
+      "fire",
+      "User takes 1/3 the damage inflicted in recoil.  Has a $effect_chance% chance to burn the target."
+   ],
+   [
+      "force-palm",
+      100,
+      60,
+      10,
+      "physical",
+      0,
+      "fighting",
+      "Has a $effect_chance% chance to paralyze the target."
+   ],
+   [
+      "aura-sphere",
+      null,
+      80,
+      20,
+      "special",
+      0,
+      "fighting",
+      "Never misses."
+   ],
+   [
+      "rock-polish",
+      null,
+      null,
+      20,
+      "status",
+      0,
+      "rock",
+      "Raises the user's Speed by two stages."
+   ],
+   [
+      "poison-jab",
+      100,
+      80,
+      20,
+      "physical",
+      0,
+      "poison",
+      "Has a $effect_chance% chance to poison the target."
+   ],
+   [
+      "dark-pulse",
+      100,
+      80,
+      15,
+      "special",
+      0,
+      "dark",
+      "Has a $effect_chance% chance to make the target flinch."
+   ],
+   [
+      "night-slash",
+      100,
+      70,
+      15,
+      "physical",
+      0,
+      "dark",
+      "Has an increased chance for a critical hit."
+   ],
+   [
+      "aqua-tail",
+      90,
+      90,
+      10,
+      "physical",
+      0,
+      "water",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "seed-bomb",
+      100,
+      80,
+      15,
+      "physical",
+      0,
+      "grass",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "air-slash",
+      95,
+      75,
+      15,
+      "special",
+      0,
+      "flying",
+      "Has a $effect_chance% chance to make the target flinch."
+   ],
+   [
+      "x-scissor",
+      100,
+      80,
+      15,
+      "physical",
+      0,
+      "bug",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "bug-buzz",
+      100,
+      90,
+      10,
+      "special",
+      0,
+      "bug",
+      "Has a $effect_chance% chance to lower the target's Special Defense by one stage."
+   ],
+   [
+      "dragon-pulse",
+      100,
+      85,
+      10,
+      "special",
+      0,
+      "dragon",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "dragon-rush",
+      75,
+      100,
+      10,
+      "physical",
+      0,
+      "dragon",
+      "Has a $effect_chance% chance to make the target flinch."
+   ],
+   [
+      "power-gem",
+      100,
+      80,
+      20,
+      "special",
+      0,
+      "rock",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "drain-punch",
+      100,
+      75,
+      10,
+      "physical",
+      0,
+      "fighting",
+      "Drains half the damage inflicted to heal the user."
+   ],
+   [
+      "vacuum-wave",
+      100,
+      40,
+      30,
+      "special",
+      1,
+      "fighting",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "focus-blast",
+      70,
+      120,
+      5,
+      "special",
+      0,
+      "fighting",
+      "Has a $effect_chance% chance to lower the target's Special Defense by one stage."
+   ],
+   [
+      "energy-ball",
+      100,
+      90,
+      10,
+      "special",
+      0,
+      "grass",
+      "Has a $effect_chance% chance to lower the target's Special Defense by one stage."
+   ],
+   [
+      "brave-bird",
+      100,
+      120,
+      15,
+      "physical",
+      0,
+      "flying",
+      "User receives 1/3 the damage inflicted in recoil."
+   ],
+   [
+      "earth-power",
+      100,
+      90,
+      10,
+      "special",
+      0,
+      "ground",
+      "Has a $effect_chance% chance to lower the target's Special Defense by one stage."
+   ],
+   [
+      "switcheroo",
+      100,
+      null,
+      10,
+      "status",
+      0,
+      "dark",
+      "User and target swap items."
+   ],
+   [
+      "giga-impact",
+      90,
+      150,
+      5,
+      "physical",
+      0,
+      "normal",
+      "User foregoes its next turn to recharge."
+   ],
+   [
+      "nasty-plot",
+      null,
+      null,
+      20,
+      "status",
+      0,
+      "dark",
+      "Raises the user's Special Attack by two stages."
+   ],
+   [
+      "bullet-punch",
+      100,
+      40,
+      30,
+      "physical",
+      1,
+      "steel",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "avalanche",
+      100,
+      60,
+      10,
+      "physical",
+      -4,
+      "ice",
+      "Inflicts double damage if the user takes damage before attacking this turn."
+   ],
+   [
+      "ice-shard",
+      100,
+      40,
+      30,
+      "physical",
+      1,
+      "ice",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "shadow-claw",
+      100,
+      70,
+      15,
+      "physical",
+      0,
+      "ghost",
+      "Has an increased chance for a critical hit."
+   ],
+   [
+      "thunder-fang",
+      95,
+      65,
+      15,
+      "physical",
+      0,
+      "electric",
+      "Has a $effect_chance% chance to paralyze the target and a $effect_chance% chance to make the target flinch."
+   ],
+   [
+      "ice-fang",
+      95,
+      65,
+      15,
+      "physical",
+      0,
+      "ice",
+      "Has a $effect_chance% chance to freeze the target and a $effect_chance% chance to make the target flinch."
+   ],
+   [
+      "fire-fang",
+      95,
+      65,
+      15,
+      "physical",
+      0,
+      "fire",
+      "Has a $effect_chance% chance to burn the target and a $effect_chance% chance to make the target flinch."
+   ],
+   [
+      "shadow-sneak",
+      100,
+      40,
+      30,
+      "physical",
+      1,
+      "ghost",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "mud-bomb",
+      85,
+      65,
+      10,
+      "special",
+      0,
+      "ground",
+      "Has a $effect_chance% chance to lower the target's accuracy by one stage."
+   ],
+   [
+      "psycho-cut",
+      100,
+      70,
+      20,
+      "physical",
+      0,
+      "psychic",
+      "Has an increased chance for a critical hit."
+   ],
+   [
+      "zen-headbutt",
+      90,
+      80,
+      15,
+      "physical",
+      0,
+      "psychic",
+      "Has a $effect_chance% chance to make the target flinch."
+   ],
+   [
+      "mirror-shot",
+      85,
+      65,
+      10,
+      "special",
+      0,
+      "steel",
+      "Has a $effect_chance% chance to lower the target's accuracy by one stage."
+   ],
+   [
+      "flash-cannon",
+      100,
+      80,
+      10,
+      "special",
+      0,
+      "steel",
+      "Has a $effect_chance% chance to lower the target's Special Defense by one stage."
+   ],
+   [
+      "rock-climb",
+      85,
+      90,
+      20,
+      "physical",
+      0,
+      "normal",
+      "Has a $effect_chance% chance to confuse the target."
+   ],
+   [
+      "defog",
+      null,
+      null,
+      15,
+      "status",
+      0,
+      "flying",
+      "Lowers the target's evasion by one stage.  Removes field effects from the enemy field."
+   ],
+   [
+      "trick-room",
+      null,
+      null,
+      5,
+      "status",
+      -7,
+      "psychic",
+      "For five turns, slower Pok\u00e9mon will act before faster Pok\u00e9mon."
+   ],
+   [
+      "draco-meteor",
+      90,
+      130,
+      5,
+      "special",
+      0,
+      "dragon",
+      "Lowers the user's Special Attack by two stages after inflicting damage."
+   ],
+   [
+      "discharge",
+      100,
+      80,
+      15,
+      "special",
+      0,
+      "electric",
+      "Has a $effect_chance% chance to paralyze the target."
+   ],
+   [
+      "lava-plume",
+      100,
+      80,
+      15,
+      "special",
+      0,
+      "fire",
+      "Has a $effect_chance% chance to burn the target."
+   ],
+   [
+      "leaf-storm",
+      90,
+      130,
+      5,
+      "special",
+      0,
+      "grass",
+      "Lowers the user's Special Attack by two stages after inflicting damage."
+   ],
+   [
+      "power-whip",
+      85,
+      120,
+      10,
+      "physical",
+      0,
+      "grass",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "rock-wrecker",
+      90,
+      150,
+      5,
+      "physical",
+      0,
+      "rock",
+      "User foregoes its next turn to recharge."
+   ],
+   [
+      "cross-poison",
+      100,
+      70,
+      20,
+      "physical",
+      0,
+      "poison",
+      "Has an increased chance for a critical hit and a $effect_chance% chance to poison the target."
+   ],
+   [
+      "gunk-shot",
+      80,
+      120,
+      5,
+      "physical",
+      0,
+      "poison",
+      "Has a $effect_chance% chance to poison the target."
+   ],
+   [
+      "iron-head",
+      100,
+      80,
+      15,
+      "physical",
+      0,
+      "steel",
+      "Has a $effect_chance% chance to make the target flinch."
+   ],
+   [
+      "magnet-bomb",
+      null,
+      60,
+      20,
+      "physical",
+      0,
+      "steel",
+      "Never misses."
+   ],
+   [
+      "stone-edge",
+      80,
+      100,
+      5,
+      "physical",
+      0,
+      "rock",
+      "Has an increased chance for a critical hit."
+   ],
+   [
+      "captivate",
+      100,
+      null,
+      20,
+      "status",
+      0,
+      "normal",
+      "Lowers the target's Special Attack by two stages if it's the opposite gender."
+   ],
+   [
+      "stealth-rock",
+      null,
+      null,
+      20,
+      "status",
+      0,
+      "rock",
+      "Causes damage when opposing Pok\u00e9mon switch in."
+   ],
+   [
+      "grass-knot",
+      100,
+      null,
+      20,
+      "special",
+      0,
+      "grass",
+      "Inflicts more damage to heavier targets, with a maximum of 120 power."
+   ],
+   [
+      "chatter",
+      100,
+      65,
+      20,
+      "special",
+      0,
+      "flying",
+      "Has a higher chance to confuse the target when the recorded sound is louder."
+   ],
+   [
+      "judgment",
+      100,
+      100,
+      10,
+      "special",
+      0,
+      "normal",
+      "If the user is holding a appropriate plate or drive, the damage inflicted will match it."
+   ],
+   [
+      "bug-bite",
+      100,
+      60,
+      20,
+      "physical",
+      0,
+      "bug",
+      "If target has a berry, inflicts double damage and uses the berry."
+   ],
+   [
+      "charge-beam",
+      90,
+      50,
+      10,
+      "special",
+      0,
+      "electric",
+      "Has a $effect_chance% chance to raise the user's Special Attack by one stage."
+   ],
+   [
+      "wood-hammer",
+      100,
+      120,
+      15,
+      "physical",
+      0,
+      "grass",
+      "User receives 1/3 the damage inflicted in recoil."
+   ],
+   [
+      "aqua-jet",
+      100,
+      40,
+      20,
+      "physical",
+      1,
+      "water",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "attack-order",
+      100,
+      90,
+      15,
+      "physical",
+      0,
+      "bug",
+      "Has an increased chance for a critical hit."
+   ],
+   [
+      "defend-order",
+      null,
+      null,
+      10,
+      "status",
+      0,
+      "bug",
+      "Raises the user's Defense and Special Defense by one stage."
+   ],
+   [
+      "heal-order",
+      null,
+      null,
+      10,
+      "status",
+      0,
+      "bug",
+      "Heals the user by half its max HP."
+   ],
+   [
+      "head-smash",
+      80,
+      150,
+      5,
+      "physical",
+      0,
+      "rock",
+      "User receives 1/2 the damage inflicted in recoil."
+   ],
+   [
+      "double-hit",
+      90,
+      35,
+      10,
+      "physical",
+      0,
+      "normal",
+      "Hits twice in one turn."
+   ],
+   [
+      "roar-of-time",
+      90,
+      150,
+      5,
+      "special",
+      0,
+      "dragon",
+      "User foregoes its next turn to recharge."
+   ],
+   [
+      "spacial-rend",
+      95,
+      100,
+      5,
+      "special",
+      0,
+      "dragon",
+      "Has an increased chance for a critical hit."
+   ],
+   [
+      "lunar-dance",
+      null,
+      null,
+      10,
+      "status",
+      0,
+      "psychic",
+      "User faints, and its replacement is fully healed."
+   ],
+   [
+      "crush-grip",
+      100,
+      null,
+      5,
+      "physical",
+      0,
+      "normal",
+      "Power increases against targets with more HP remaining, up to a maximum of 121 power."
+   ],
+   [
+      "magma-storm",
+      75,
+      100,
+      5,
+      "special",
+      0,
+      "fire",
+      "Prevents the target from fleeing and inflicts damage for 2-5 turns."
+   ],
+   [
+      "dark-void",
+      50,
+      null,
+      10,
+      "status",
+      0,
+      "dark",
+      "Puts the target to sleep."
+   ],
+   [
+      "seed-flare",
+      85,
+      120,
+      5,
+      "special",
+      0,
+      "grass",
+      "Has a $effect_chance% chance to lower the target's Special Defense by two stages."
+   ],
+   [
+      "ominous-wind",
+      100,
+      60,
+      5,
+      "special",
+      0,
+      "ghost",
+      "Has a $effect_chance% chance to raise all of the user's stats by one stage."
+   ],
+   [
+      "shadow-force",
+      100,
+      120,
+      5,
+      "physical",
+      0,
+      "ghost",
+      "User vanishes, dodging all attacks, and hits next turn.  Hits through Protect and Detect."
+   ],
+   [
+      "hone-claws",
+      null,
+      null,
+      15,
+      "status",
+      0,
+      "dark",
+      "Raises the user's Attack and accuracy by one stage."
+   ],
+   [
+      "wide-guard",
+      null,
+      null,
+      10,
+      "status",
+      3,
+      "rock",
+      "Prevents any multi-target moves from hitting friendly Pok\u00e9mon this turn."
+   ],
+   [
+      "guard-split",
+      null,
+      null,
+      10,
+      "status",
+      0,
+      "psychic",
+      "Averages Defense and Special Defense with the target."
+   ],
+   [
+      "power-split",
+      null,
+      null,
+      10,
+      "status",
+      0,
+      "psychic",
+      "Averages Attack and Special Attack with the target."
+   ],
+   [
+      "wonder-room",
+      null,
+      null,
+      10,
+      "status",
+      0,
+      "psychic",
+      "All Pok\u00e9mon's Defense and Special Defense are swapped for 5 turns."
+   ],
+   [
+      "psyshock",
+      100,
+      80,
+      10,
+      "special",
+      0,
+      "psychic",
+      "Inflicts damage based on the target's Defense, not Special Defense."
+   ],
+   [
+      "venoshock",
+      100,
+      65,
+      10,
+      "special",
+      0,
+      "poison",
+      "Inflicts double damage if the target is Poisoned."
+   ],
+   [
+      "autotomize",
+      null,
+      null,
+      15,
+      "status",
+      0,
+      "steel",
+      "Raises the user's Speed by two stages and halves the user's weight."
+   ],
+   [
+      "rage-powder",
+      null,
+      null,
+      20,
+      "status",
+      2,
+      "bug",
+      "Redirects the target's single-target effects to the user for this turn."
+   ],
+   [
+      "telekinesis",
+      null,
+      null,
+      15,
+      "status",
+      0,
+      "psychic",
+      "Moves have 100% accuracy against the target for three turns."
+   ],
+   [
+      "magic-room",
+      null,
+      null,
+      10,
+      "status",
+      0,
+      "psychic",
+      "Negates held items for five turns."
+   ],
+   [
+      "smack-down",
+      100,
+      50,
+      15,
+      "physical",
+      0,
+      "rock",
+      "Removes any immunity to Ground damage."
+   ],
+   [
+      "storm-throw",
+      100,
+      60,
+      10,
+      "physical",
+      0,
+      "fighting",
+      "Always scores a critical hit."
+   ],
+   [
+      "flame-burst",
+      100,
+      70,
+      15,
+      "special",
+      0,
+      "fire",
+      "Deals splash damage to Pok\u00e9mon next to the target."
+   ],
+   [
+      "sludge-wave",
+      100,
+      95,
+      10,
+      "special",
+      0,
+      "poison",
+      "Has a $effect_chance% chance to poison the target."
+   ],
+   [
+      "quiver-dance",
+      null,
+      null,
+      20,
+      "status",
+      0,
+      "bug",
+      "Raises the user's Special Attack, Special Defense, and Speed by one stage each."
+   ],
+   [
+      "heavy-slam",
+      100,
+      null,
+      10,
+      "physical",
+      0,
+      "steel",
+      "Power is higher when the user weighs more than the target, up to a maximum of 120."
+   ],
+   [
+      "synchronoise",
+      100,
+      120,
+      10,
+      "special",
+      0,
+      "psychic",
+      "Hits any Pok\u00e9mon that shares a type with the user."
+   ],
+   [
+      "electro-ball",
+      100,
+      null,
+      10,
+      "special",
+      0,
+      "electric",
+      "Power is higher when the user has greater Speed than the target, up to a maximum of 150."
+   ],
+   [
+      "soak",
+      100,
+      null,
+      20,
+      "status",
+      0,
+      "water",
+      "Changes the target's type to Water."
+   ],
+   [
+      "flame-charge",
+      100,
+      50,
+      20,
+      "physical",
+      0,
+      "fire",
+      "Inflicts regular damage.  Raises the user's Speed by one stage."
+   ],
+   [
+      "coil",
+      null,
+      null,
+      20,
+      "status",
+      0,
+      "poison",
+      "Raises the user's Attack, Defense, and accuracy by one stage each."
+   ],
+   [
+      "low-sweep",
+      100,
+      65,
+      20,
+      "physical",
+      0,
+      "fighting",
+      "Lowers the target's Speed by one stage."
+   ],
+   [
+      "acid-spray",
+      100,
+      40,
+      20,
+      "special",
+      0,
+      "poison",
+      "Lowers the target's Special Defense by two stages."
+   ],
+   [
+      "foul-play",
+      100,
+      95,
+      15,
+      "physical",
+      0,
+      "dark",
+      "Calculates damage with the target's attacking stat."
+   ],
+   [
+      "simple-beam",
+      100,
+      null,
+      15,
+      "status",
+      0,
+      "normal",
+      "Changes the target's ability to Simple."
+   ],
+   [
+      "entrainment",
+      100,
+      null,
+      15,
+      "status",
+      0,
+      "normal",
+      "Copies the user's ability onto the target."
+   ],
+   [
+      "after-you",
+      null,
+      null,
+      15,
+      "status",
+      0,
+      "normal",
+      "Makes the target act next this turn."
+   ],
+   [
+      "round",
+      100,
+      60,
+      15,
+      "special",
+      0,
+      "normal",
+      "Has double power if it's used more than once per turn."
+   ],
+   [
+      "echoed-voice",
+      100,
+      40,
+      15,
+      "special",
+      0,
+      "normal",
+      "Power increases by 100% for each consecutive use by any friendly Pok\u00e9mon, to a maximum of 200."
+   ],
+   [
+      "chip-away",
+      100,
+      70,
+      20,
+      "physical",
+      0,
+      "normal",
+      "Ignores the target's stat modifiers."
+   ],
+   [
+      "clear-smog",
+      null,
+      50,
+      15,
+      "special",
+      0,
+      "poison",
+      "Removes all of the target's stat modifiers."
+   ],
+   [
+      "stored-power",
+      100,
+      20,
+      10,
+      "special",
+      0,
+      "psychic",
+      "Power is higher the more the user's stats have been raised, to a maximum of 31\u00d7."
+   ],
+   [
+      "quick-guard",
+      null,
+      null,
+      15,
+      "status",
+      3,
+      "fighting",
+      "Prevents any priority moves from hitting friendly Pok\u00e9mon this turn."
+   ],
+   [
+      "ally-switch",
+      null,
+      null,
+      15,
+      "status",
+      2,
+      "psychic",
+      "User switches places with the friendly Pok\u00e9mon opposite it."
+   ],
+   [
+      "scald",
+      100,
+      80,
+      15,
+      "special",
+      0,
+      "water",
+      "Has a $effect_chance% chance to burn the target."
+   ],
+   [
+      "shell-smash",
+      null,
+      null,
+      15,
+      "status",
+      0,
+      "normal",
+      "Raises user's Attack, Special Attack, and Speed by two stages.  Lower user's Defense and Special Defense by one stage."
+   ],
+   [
+      "heal-pulse",
+      null,
+      null,
+      10,
+      "status",
+      0,
+      "psychic",
+      "Heals the target for half its max HP."
+   ],
+   [
+      "hex",
+      100,
+      65,
+      10,
+      "special",
+      0,
+      "ghost",
+      "Has double power if the target has a major status ailment."
+   ],
+   [
+      "sky-drop",
+      100,
+      60,
+      10,
+      "physical",
+      0,
+      "flying",
+      "Carries the target high into the air, dodging all attacks against either, and drops it next turn."
+   ],
+   [
+      "shift-gear",
+      null,
+      null,
+      10,
+      "status",
+      0,
+      "steel",
+      "Raises the user's Attack by one stage and its Speed by two stages."
+   ],
+   [
+      "circle-throw",
+      90,
+      60,
+      10,
+      "physical",
+      -6,
+      "fighting",
+      "Ends wild battles.  Forces trainers to switch Pok\u00e9mon."
+   ],
+   [
+      "incinerate",
+      100,
+      60,
+      15,
+      "special",
+      0,
+      "fire",
+      "Destroys the target's held berry."
+   ],
+   [
+      "quash",
+      100,
+      null,
+      15,
+      "status",
+      0,
+      "dark",
+      "Makes the target act last this turn."
+   ],
+   [
+      "acrobatics",
+      100,
+      55,
+      15,
+      "physical",
+      0,
+      "flying",
+      "Has double power if the user has no held item."
+   ],
+   [
+      "reflect-type",
+      null,
+      null,
+      15,
+      "status",
+      0,
+      "normal",
+      "User becomes the target's type."
+   ],
+   [
+      "retaliate",
+      100,
+      70,
+      5,
+      "physical",
+      0,
+      "normal",
+      "Has double power if a friendly Pok\u00e9mon fainted last turn."
+   ],
+   [
+      "final-gambit",
+      100,
+      null,
+      5,
+      "special",
+      0,
+      "fighting",
+      "Inflicts damage equal to the user's remaining HP.  User faints."
+   ],
+   [
+      "bestow",
+      null,
+      null,
+      15,
+      "status",
+      0,
+      "normal",
+      "Gives the user's held item to the target."
+   ],
+   [
+      "inferno",
+      50,
+      100,
+      5,
+      "special",
+      0,
+      "fire",
+      "Has a $effect_chance% chance to burn the target."
+   ],
+   [
+      "water-pledge",
+      100,
+      80,
+      10,
+      "special",
+      0,
+      "water",
+      "With Grass Pledge, halves opposing Pok\u00e9mon's Speed for four turns."
+   ],
+   [
+      "fire-pledge",
+      100,
+      80,
+      10,
+      "special",
+      0,
+      "fire",
+      "With Water Pledge, doubles the effect chance of friendly Pok\u00e9mon's moves for four turns."
+   ],
+   [
+      "grass-pledge",
+      100,
+      80,
+      10,
+      "special",
+      0,
+      "grass",
+      "With Fire Pledge, damages opposing Pok\u00e9mon for 1/8 their max HP every turn for four turns."
+   ],
+   [
+      "volt-switch",
+      100,
+      70,
+      20,
+      "special",
+      0,
+      "electric",
+      "User must switch out after attacking."
+   ],
+   [
+      "struggle-bug",
+      100,
+      50,
+      20,
+      "special",
+      0,
+      "bug",
+      "Has a $effect_chance% chance to lower the target's Special Attack by one stage."
+   ],
+   [
+      "bulldoze",
+      100,
+      60,
+      20,
+      "physical",
+      0,
+      "ground",
+      "Has a $effect_chance% chance to lower the target's Speed by one stage."
+   ],
+   [
+      "frost-breath",
+      90,
+      60,
+      10,
+      "special",
+      0,
+      "ice",
+      "Always scores a critical hit."
+   ],
+   [
+      "dragon-tail",
+      90,
+      60,
+      10,
+      "physical",
+      -6,
+      "dragon",
+      "Ends wild battles.  Forces trainers to switch Pok\u00e9mon."
+   ],
+   [
+      "work-up",
+      null,
+      null,
+      30,
+      "status",
+      0,
+      "normal",
+      "Raises the user's Attack and Special Attack by one stage each."
+   ],
+   [
+      "electroweb",
+      95,
+      55,
+      15,
+      "special",
+      0,
+      "electric",
+      "Lowers the target's Speed by one stage."
+   ],
+   [
+      "wild-charge",
+      100,
+      90,
+      15,
+      "physical",
+      0,
+      "electric",
+      "User receives 1/4 the damage it inflicts in recoil."
+   ],
+   [
+      "drill-run",
+      95,
+      80,
+      10,
+      "physical",
+      0,
+      "ground",
+      "Has an increased chance for a critical hit."
+   ],
+   [
+      "dual-chop",
+      90,
+      40,
+      15,
+      "physical",
+      0,
+      "dragon",
+      "Hits twice in one turn."
+   ],
+   [
+      "heart-stamp",
+      100,
+      60,
+      25,
+      "physical",
+      0,
+      "psychic",
+      "Has a $effect_chance% chance to make the target flinch."
+   ],
+   [
+      "horn-leech",
+      100,
+      75,
+      10,
+      "physical",
+      0,
+      "grass",
+      "Drains half the damage inflicted to heal the user."
+   ],
+   [
+      "sacred-sword",
+      100,
+      90,
+      15,
+      "physical",
+      0,
+      "fighting",
+      "Ignores the target's stat modifiers."
+   ],
+   [
+      "razor-shell",
+      95,
+      75,
+      10,
+      "physical",
+      0,
+      "water",
+      "Has a $effect_chance% chance to lower the target's Defense by one stage."
+   ],
+   [
+      "heat-crash",
+      100,
+      null,
+      10,
+      "physical",
+      0,
+      "fire",
+      "Power is higher when the user weighs more than the target, up to a maximum of 120."
+   ],
+   [
+      "leaf-tornado",
+      90,
+      65,
+      10,
+      "special",
+      0,
+      "grass",
+      "Has a $effect_chance% chance to lower the target's accuracy by one stage."
+   ],
+   [
+      "steamroller",
+      100,
+      65,
+      20,
+      "physical",
+      0,
+      "bug",
+      "Has a $effect_chance% chance to make the target flinch."
+   ],
+   [
+      "cotton-guard",
+      null,
+      null,
+      10,
+      "status",
+      0,
+      "grass",
+      "Raises the user's Defense by three stages."
+   ],
+   [
+      "night-daze",
+      95,
+      85,
+      10,
+      "special",
+      0,
+      "dark",
+      "Has a $effect_chance% chance to lower the target's accuracy by one stage."
+   ],
+   [
+      "psystrike",
+      100,
+      100,
+      10,
+      "special",
+      0,
+      "psychic",
+      "Inflicts damage based on the target's Defense, not Special Defense."
+   ],
+   [
+      "tail-slap",
+      85,
+      25,
+      10,
+      "physical",
+      0,
+      "normal",
+      "Hits 2-5 times in one turn."
+   ],
+   [
+      "hurricane",
+      70,
+      110,
+      10,
+      "special",
+      0,
+      "flying",
+      "Has a $effect_chance% chance to confuse the target."
+   ],
+   [
+      "head-charge",
+      100,
+      120,
+      15,
+      "physical",
+      0,
+      "normal",
+      "User receives 1/4 the damage it inflicts in recoil."
+   ],
+   [
+      "gear-grind",
+      85,
+      50,
+      15,
+      "physical",
+      0,
+      "steel",
+      "Hits twice in one turn."
+   ],
+   [
+      "searing-shot",
+      100,
+      100,
+      5,
+      "special",
+      0,
+      "fire",
+      "Has a $effect_chance% chance to burn the target."
+   ],
+   [
+      "techno-blast",
+      100,
+      120,
+      5,
+      "special",
+      0,
+      "normal",
+      "If the user is holding a appropriate plate or drive, the damage inflicted will match it."
+   ],
+   [
+      "relic-song",
+      100,
+      75,
+      10,
+      "special",
+      0,
+      "normal",
+      "Has a $effect_chance% chance to put the target to sleep."
+   ],
+   [
+      "secret-sword",
+      100,
+      85,
+      10,
+      "special",
+      0,
+      "fighting",
+      "Inflicts damage based on the target's Defense, not Special Defense."
+   ],
+   [
+      "glaciate",
+      95,
+      65,
+      10,
+      "special",
+      0,
+      "ice",
+      "Lowers the target's Speed by one stage."
+   ],
+   [
+      "bolt-strike",
+      85,
+      130,
+      5,
+      "physical",
+      0,
+      "electric",
+      "Has a $effect_chance% chance to paralyze the target."
+   ],
+   [
+      "blue-flare",
+      85,
+      130,
+      5,
+      "special",
+      0,
+      "fire",
+      "Has a $effect_chance% chance to burn the target."
+   ],
+   [
+      "fiery-dance",
+      100,
+      80,
+      10,
+      "special",
+      0,
+      "fire",
+      "Has a $effect_chance% chance to raise the user's Special Attack by one stage."
+   ],
+   [
+      "freeze-shock",
+      90,
+      140,
+      5,
+      "physical",
+      0,
+      "ice",
+      "Requires a turn to charge before attacking.  Has a $effect_chance% chance to paralyze the target."
+   ],
+   [
+      "ice-burn",
+      90,
+      140,
+      5,
+      "special",
+      0,
+      "ice",
+      "Requires a turn to charge before attacking.  Has a $effect_chance% chance to burn the target."
+   ],
+   [
+      "snarl",
+      95,
+      55,
+      15,
+      "special",
+      0,
+      "dark",
+      "Has a $effect_chance% chance to lower the target's Special Attack by one stage."
+   ],
+   [
+      "icicle-crash",
+      90,
+      85,
+      10,
+      "physical",
+      0,
+      "ice",
+      "Has a $effect_chance% chance to make the target flinch."
+   ],
+   [
+      "v-create",
+      95,
+      180,
+      5,
+      "physical",
+      0,
+      "fire",
+      "Lowers the user's Defense, Special Defense, and Speed by one stage each."
+   ],
+   [
+      "fusion-flare",
+      100,
+      100,
+      5,
+      "special",
+      0,
+      "fire",
+      "With Fusion Bolt, inflicts double damage."
+   ],
+   [
+      "fusion-bolt",
+      100,
+      100,
+      5,
+      "physical",
+      0,
+      "electric",
+      "With Fusion Flare, inflicts double damage."
+   ],
+   [
+      "flying-press",
+      95,
+      100,
+      10,
+      "physical",
+      0,
+      "fighting",
+      "Deals both fighting and flying-type damage."
+   ],
+   [
+      "mat-block",
+      null,
+      null,
+      10,
+      "status",
+      0,
+      "fighting",
+      "Protects all friendly Pok\u00e9mon from damaging moves.  Only works on the first turn after the user is sent out."
+   ],
+   [
+      "belch",
+      90,
+      120,
+      10,
+      "special",
+      0,
+      "poison",
+      "Can only be used after the user has eaten a berry."
+   ],
+   [
+      "rototiller",
+      null,
+      null,
+      10,
+      "status",
+      0,
+      "ground",
+      "Raises the Attack and Special Attack of all grass Pok\u00e9mon in battle."
+   ],
+   [
+      "sticky-web",
+      null,
+      null,
+      20,
+      "status",
+      0,
+      "bug",
+      "Covers the opposing field, lowering opponents' Speed by one stage upon switching in."
+   ],
+   [
+      "fell-stinger",
+      100,
+      50,
+      25,
+      "physical",
+      0,
+      "bug",
+      "Raises the user's Attack by two stages if it KOs the target."
+   ],
+   [
+      "phantom-force",
+      100,
+      90,
+      10,
+      "physical",
+      0,
+      "ghost",
+      "User vanishes, dodging all attacks, and hits next turn.  Hits through Protect and Detect."
+   ],
+   [
+      "trick-or-treat",
+      100,
+      null,
+      20,
+      "status",
+      0,
+      "ghost",
+      "Adds ghost to the target's types."
+   ],
+   [
+      "noble-roar",
+      100,
+      null,
+      30,
+      "status",
+      0,
+      "normal",
+      "Lowers the target's Attack and Special Attack by one stage."
+   ],
+   [
+      "ion-deluge",
+      null,
+      null,
+      25,
+      "status",
+      1,
+      "electric",
+      "Changes all normal moves to electric moves for the rest of the turn."
+   ],
+   [
+      "parabolic-charge",
+      100,
+      65,
+      20,
+      "special",
+      0,
+      "electric",
+      "Heals the user for half the total damage dealt to all targets."
+   ],
+   [
+      "forests-curse",
+      100,
+      null,
+      20,
+      "status",
+      0,
+      "grass",
+      "Adds grass to the target's types."
+   ],
+   [
+      "petal-blizzard",
+      100,
+      90,
+      15,
+      "physical",
+      0,
+      "grass",
+      "Inflicts regular damage."
+   ],
+   [
+      "freeze-dry",
+      100,
+      70,
+      20,
+      "special",
+      0,
+      "ice",
+      "Super-effective against water."
+   ],
+   [
+      "disarming-voice",
+      null,
+      40,
+      15,
+      "special",
+      0,
+      "fairy",
+      "Never misses."
+   ],
+   [
+      "parting-shot",
+      100,
+      null,
+      20,
+      "status",
+      0,
+      "dark",
+      "Lowers all targets' Attack and Special Attack by one stage.  Makes the user switch out."
+   ],
+   [
+      "topsy-turvy",
+      null,
+      null,
+      20,
+      "status",
+      0,
+      "dark",
+      "Inverts the target's stat modifiers."
+   ],
+   [
+      "draining-kiss",
+      100,
+      50,
+      10,
+      "special",
+      0,
+      "fairy",
+      "Drains 75% of the damage inflicted to heal the user."
+   ],
+   [
+      "crafty-shield",
+      null,
+      null,
+      10,
+      "status",
+      3,
+      "fairy",
+      "Protects all friendly Pok\u00e9mon from non-damaging moves."
+   ],
+   [
+      "flower-shield",
+      null,
+      null,
+      10,
+      "status",
+      0,
+      "fairy",
+      "Raises the Defense of all grass Pok\u00e9mon in battle."
+   ],
+   [
+      "grassy-terrain",
+      null,
+      null,
+      10,
+      "status",
+      0,
+      "grass",
+      "For five turns, heals all Pok\u00e9mon on the ground for 1/16 max HP each turn and strengthens their grass moves to 1.5\u00d7 their power."
+   ],
+   [
+      "misty-terrain",
+      null,
+      null,
+      10,
+      "status",
+      0,
+      "fairy",
+      "For five turns, protects all Pok\u00e9mon on the ground from major status ailments and confusion, and halves the power of incoming dragon moves."
+   ],
+   [
+      "electrify",
+      null,
+      null,
+      20,
+      "status",
+      0,
+      "electric",
+      "Changes the target's move's type to electric if it hasn't moved yet this turn."
+   ],
+   [
+      "play-rough",
+      90,
+      90,
+      10,
+      "physical",
+      0,
+      "fairy",
+      "Has a $effect_chance% chance to lower the target's Attack by one stage."
+   ],
+   [
+      "fairy-wind",
+      100,
+      40,
+      30,
+      "special",
+      0,
+      "fairy",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "moonblast",
+      100,
+      95,
+      15,
+      "special",
+      0,
+      "fairy",
+      "Has a $effect_chance% chance to lower the target's Special Attack by one stage."
+   ],
+   [
+      "boomburst",
+      100,
+      140,
+      10,
+      "special",
+      0,
+      "normal",
+      "Inflicts regular damage."
+   ],
+   [
+      "fairy-lock",
+      null,
+      null,
+      10,
+      "status",
+      0,
+      "fairy",
+      "Prevents all Pok\u00e9mon from fleeing or switching out during the next turn."
+   ],
+   [
+      "kings-shield",
+      null,
+      null,
+      10,
+      "status",
+      4,
+      "steel",
+      "Blocks damaging attacks and lowers attacking Pok\u00e9mon's Attack by two stages on contact.  Switches Aegislash to Shield Forme."
+   ],
+   [
+      "play-nice",
+      null,
+      null,
+      20,
+      "status",
+      0,
+      "normal",
+      "Lowers the target's Attack by one stage."
+   ],
+   [
+      "confide",
+      null,
+      null,
+      20,
+      "status",
+      0,
+      "normal",
+      "Lowers the target's Special Attack by one stage."
+   ],
+   [
+      "diamond-storm",
+      95,
+      100,
+      5,
+      "physical",
+      0,
+      "rock",
+      "Has a $effect_chance% chance to raise the user's Defense by two stages for each target hit."
+   ],
+   [
+      "steam-eruption",
+      95,
+      110,
+      5,
+      "special",
+      0,
+      "water",
+      "Has a $effect_chance% chance to burn the target."
+   ],
+   [
+      "hyperspace-hole",
+      null,
+      80,
+      5,
+      "special",
+      0,
+      "psychic",
+      "Ignores and destroys protection effects."
+   ],
+   [
+      "water-shuriken",
+      100,
+      15,
+      20,
+      "special",
+      1,
+      "water",
+      "Hits 2\u20135 times."
+   ],
+   [
+      "mystical-fire",
+      100,
+      75,
+      10,
+      "special",
+      0,
+      "fire",
+      "Has a $effect_chance% chance to lower the target's Special Attack by one stage."
+   ],
+   [
+      "spiky-shield",
+      null,
+      null,
+      10,
+      "status",
+      4,
+      "grass",
+      "Blocks damaging attacks and damages attacking Pok\u00e9mon for 1/8 their max HP."
+   ],
+   [
+      "aromatic-mist",
+      null,
+      null,
+      20,
+      "status",
+      0,
+      "fairy",
+      "Raises a selected ally's Special Defense by one stage."
+   ],
+   [
+      "eerie-impulse",
+      100,
+      null,
+      15,
+      "status",
+      0,
+      "electric",
+      "Lowers the target's Special Attack by two stages."
+   ],
+   [
+      "venom-drench",
+      100,
+      null,
+      20,
+      "status",
+      0,
+      "poison",
+      "Lowers the target's Attack, Special Attack, and Speed by one stage if it is poisoned."
+   ],
+   [
+      "powder",
+      100,
+      null,
+      20,
+      "status",
+      1,
+      "bug",
+      "Explodes if the target uses a fire move this turn, damaging it for 1/4 its max HP and preventing the move."
+   ],
+   [
+      "geomancy",
+      null,
+      null,
+      10,
+      "status",
+      0,
+      "fairy",
+      "Takes one turn to charge, then raises the user's Special Attack, Special Defense, and Speed by two stages."
+   ],
+   [
+      "magnetic-flux",
+      null,
+      null,
+      20,
+      "status",
+      0,
+      "electric",
+      "Raises the Defense and Special Defense of all friendly Pok\u00e9mon with plus or minus by one stage."
+   ],
+   [
+      "happy-hour",
+      null,
+      null,
+      30,
+      "status",
+      0,
+      "normal",
+      "Doubles prize money."
+   ],
+   [
+      "electric-terrain",
+      null,
+      null,
+      10,
+      "status",
+      0,
+      "electric",
+      "For five turns, prevents all Pok\u00e9mon on the ground from sleeping and strengthens their electric moves to 1.5\u00d7 their power."
+   ],
+   [
+      "dazzling-gleam",
+      100,
+      80,
+      10,
+      "special",
+      0,
+      "fairy",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "celebrate",
+      null,
+      null,
+      40,
+      "status",
+      0,
+      "normal",
+      "Does nothing."
+   ],
+   [
+      "hold-hands",
+      null,
+      null,
+      40,
+      "status",
+      0,
+      "normal",
+      "Does nothing."
+   ],
+   [
+      "baby-doll-eyes",
+      100,
+      null,
+      30,
+      "status",
+      1,
+      "fairy",
+      "Lowers the target's Attack by one stage."
+   ],
+   [
+      "nuzzle",
+      100,
+      20,
+      20,
+      "physical",
+      0,
+      "electric",
+      "Has a $effect_chance% chance to paralyze the target."
+   ],
+   [
+      "hold-back",
+      100,
+      40,
+      40,
+      "physical",
+      0,
+      "normal",
+      "Cannot lower the target's HP below 1."
+   ],
+   [
+      "infestation",
+      100,
+      20,
+      20,
+      "special",
+      0,
+      "bug",
+      "Prevents the target from fleeing and inflicts damage for 2-5 turns."
+   ],
+   [
+      "power-up-punch",
+      100,
+      40,
+      20,
+      "physical",
+      0,
+      "fighting",
+      "Raises the user's Attack by one stage after inflicting damage."
+   ],
+   [
+      "oblivion-wing",
+      100,
+      80,
+      10,
+      "special",
+      0,
+      "flying",
+      "Drains 75% of the damage inflicted to heal the user."
+   ],
+   [
+      "thousand-arrows",
+      100,
+      90,
+      10,
+      "physical",
+      0,
+      "ground",
+      "Grounds the target, and hits even Flying-type or levitating Pok\u00e9mon."
+   ],
+   [
+      "thousand-waves",
+      100,
+      90,
+      10,
+      "physical",
+      0,
+      "ground",
+      "Prevents the target from leaving battle."
+   ],
+   [
+      "lands-wrath",
+      100,
+      90,
+      10,
+      "physical",
+      0,
+      "ground",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "light-of-ruin",
+      90,
+      140,
+      5,
+      "special",
+      0,
+      "fairy",
+      "User receives 1/2 the damage inflicted in recoil."
+   ],
+   [
+      "origin-pulse",
+      85,
+      110,
+      10,
+      "special",
+      0,
+      "water",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "precipice-blades",
+      85,
+      120,
+      10,
+      "physical",
+      0,
+      "ground",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "dragon-ascent",
+      100,
+      120,
+      5,
+      "physical",
+      0,
+      "flying",
+      "Lowers the user's Defense and Special Defense by one stage after inflicting damage."
+   ],
+   [
+      "hyperspace-fury",
+      null,
+      100,
+      5,
+      "physical",
+      0,
+      "dark",
+      "Ignores and destroys protection effects."
+   ],
+   [
+      "breakneck-blitz--physical",
+      null,
+      null,
+      1,
+      "physical",
+      0,
+      "normal",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "breakneck-blitz--special",
+      null,
+      null,
+      1,
+      "special",
+      0,
+      "normal",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "all-out-pummeling--physical",
+      null,
+      null,
+      1,
+      "physical",
+      0,
+      "fighting",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "all-out-pummeling--special",
+      null,
+      null,
+      1,
+      "special",
+      0,
+      "fighting",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "supersonic-skystrike--physical",
+      null,
+      null,
+      1,
+      "physical",
+      0,
+      "flying",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "supersonic-skystrike--special",
+      null,
+      null,
+      1,
+      "special",
+      0,
+      "flying",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "acid-downpour--physical",
+      null,
+      null,
+      1,
+      "physical",
+      0,
+      "poison",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "acid-downpour--special",
+      null,
+      null,
+      1,
+      "special",
+      0,
+      "poison",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "tectonic-rage--physical",
+      null,
+      null,
+      1,
+      "physical",
+      0,
+      "ground",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "tectonic-rage--special",
+      null,
+      null,
+      1,
+      "special",
+      0,
+      "ground",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "continental-crush--physical",
+      null,
+      null,
+      1,
+      "physical",
+      0,
+      "rock",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "continental-crush--special",
+      null,
+      null,
+      1,
+      "special",
+      0,
+      "rock",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "savage-spin-out--physical",
+      null,
+      null,
+      1,
+      "physical",
+      0,
+      "bug",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "savage-spin-out--special",
+      null,
+      null,
+      1,
+      "special",
+      0,
+      "bug",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "never-ending-nightmare--physical",
+      null,
+      null,
+      1,
+      "physical",
+      0,
+      "ghost",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "never-ending-nightmare--special",
+      null,
+      null,
+      1,
+      "special",
+      0,
+      "ghost",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "corkscrew-crash--physical",
+      null,
+      null,
+      1,
+      "physical",
+      0,
+      "steel",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "corkscrew-crash--special",
+      null,
+      null,
+      1,
+      "special",
+      0,
+      "steel",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "inferno-overdrive--physical",
+      null,
+      null,
+      1,
+      "physical",
+      0,
+      "fire",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "inferno-overdrive--special",
+      null,
+      null,
+      1,
+      "special",
+      0,
+      "fire",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "hydro-vortex--physical",
+      null,
+      null,
+      1,
+      "physical",
+      0,
+      "water",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "hydro-vortex--special",
+      null,
+      null,
+      1,
+      "special",
+      0,
+      "water",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "bloom-doom--physical",
+      null,
+      null,
+      1,
+      "physical",
+      0,
+      "grass",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "bloom-doom--special",
+      null,
+      null,
+      1,
+      "special",
+      0,
+      "grass",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "gigavolt-havoc--physical",
+      null,
+      null,
+      1,
+      "physical",
+      0,
+      "electric",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "gigavolt-havoc--special",
+      null,
+      null,
+      1,
+      "special",
+      0,
+      "electric",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "shattered-psyche--physical",
+      null,
+      null,
+      1,
+      "physical",
+      0,
+      "psychic",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "shattered-psyche--special",
+      null,
+      null,
+      1,
+      "special",
+      0,
+      "psychic",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "subzero-slammer--physical",
+      null,
+      null,
+      1,
+      "physical",
+      0,
+      "ice",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "subzero-slammer--special",
+      null,
+      null,
+      1,
+      "special",
+      0,
+      "ice",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "devastating-drake--physical",
+      null,
+      null,
+      1,
+      "physical",
+      0,
+      "dragon",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "devastating-drake--special",
+      null,
+      null,
+      1,
+      "special",
+      0,
+      "dragon",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "black-hole-eclipse--physical",
+      null,
+      null,
+      1,
+      "physical",
+      0,
+      "dark",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "black-hole-eclipse--special",
+      null,
+      null,
+      1,
+      "special",
+      0,
+      "dark",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "twinkle-tackle--physical",
+      null,
+      null,
+      1,
+      "physical",
+      0,
+      "fairy",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "twinkle-tackle--special",
+      null,
+      null,
+      1,
+      "special",
+      0,
+      "fairy",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "catastropika",
+      null,
+      210,
+      1,
+      "physical",
+      0,
+      "electric",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "shore-up",
+      null,
+      null,
+      10,
+      "status",
+      0,
+      "ground",
+      "Heals the user for \u00bd its max HP, or \u2154 during a sandstorm."
+   ],
+   [
+      "first-impression",
+      100,
+      90,
+      10,
+      "physical",
+      2,
+      "bug",
+      "Can only be used as the first move after the user enters battle."
+   ],
+   [
+      "baneful-bunker",
+      null,
+      null,
+      10,
+      "status",
+      4,
+      "poison",
+      "Grants the user protection for the rest of the turn and poisons any Pok\u00e9mon that tries to use a contact move on it."
+   ],
+   [
+      "spirit-shackle",
+      100,
+      80,
+      10,
+      "physical",
+      0,
+      "ghost",
+      "Traps the target."
+   ],
+   [
+      "darkest-lariat",
+      100,
+      85,
+      10,
+      "physical",
+      0,
+      "dark",
+      "Ignores the target's stat modifiers."
+   ],
+   [
+      "sparkling-aria",
+      100,
+      90,
+      10,
+      "special",
+      0,
+      "water",
+      "Cures the target of burns."
+   ],
+   [
+      "ice-hammer",
+      90,
+      100,
+      10,
+      "physical",
+      0,
+      "ice",
+      "Lowers user's Speed by one stage."
+   ],
+   [
+      "floral-healing",
+      null,
+      null,
+      10,
+      "status",
+      0,
+      "fairy",
+      "Heals the target for \u00bd its max HP, or \u2154 on Grassy Terrain."
+   ],
+   [
+      "high-horsepower",
+      95,
+      95,
+      10,
+      "physical",
+      0,
+      "ground",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "strength-sap",
+      100,
+      null,
+      10,
+      "status",
+      0,
+      "grass",
+      "Heals the user by the target's current Attack stat and lowers the target's Attack by one stage."
+   ],
+   [
+      "solar-blade",
+      100,
+      125,
+      10,
+      "physical",
+      0,
+      "grass",
+      "Requires a turn to charge before attacking."
+   ],
+   [
+      "leafage",
+      100,
+      40,
+      40,
+      "physical",
+      0,
+      "grass",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "spotlight",
+      null,
+      null,
+      15,
+      "status",
+      3,
+      "normal",
+      "Forces the target's opponents to aim at the target for the rest of the turn."
+   ],
+   [
+      "toxic-thread",
+      100,
+      null,
+      20,
+      "status",
+      0,
+      "poison",
+      "Poisons the target and lowers its Speed by one stage."
+   ],
+   [
+      "laser-focus",
+      null,
+      null,
+      30,
+      "status",
+      0,
+      "normal",
+      "Guarantees a critical hit with the user's next move."
+   ],
+   [
+      "gear-up",
+      null,
+      null,
+      20,
+      "status",
+      0,
+      "steel",
+      "Raises the Attack and Special Attack of all friendly Pok\u00e9mon with plus or minus by one stage."
+   ],
+   [
+      "throat-chop",
+      100,
+      80,
+      15,
+      "physical",
+      0,
+      "dark",
+      "Prevents the target from using sound-based moves for two turns."
+   ],
+   [
+      "pollen-puff",
+      100,
+      90,
+      15,
+      "special",
+      0,
+      "bug",
+      "Damages opponents, but heals allies for 50% of their max HP."
+   ],
+   [
+      "anchor-shot",
+      100,
+      80,
+      20,
+      "physical",
+      0,
+      "steel",
+      "Traps the target."
+   ],
+   [
+      "psychic-terrain",
+      null,
+      null,
+      10,
+      "status",
+      0,
+      "psychic",
+      "Protects Pok\u00e9mon on the ground from priority moves and increases the power of their  Psychic moves by 50%."
+   ],
+   [
+      "lunge",
+      100,
+      80,
+      15,
+      "physical",
+      0,
+      "bug",
+      "Lowers the target's Attack by one stage after inflicting damage."
+   ],
+   [
+      "fire-lash",
+      100,
+      80,
+      15,
+      "physical",
+      0,
+      "fire",
+      "Lowers the target's Defense by one stage after inflicting damage."
+   ],
+   [
+      "power-trip",
+      100,
+      20,
+      10,
+      "physical",
+      0,
+      "dark",
+      "Power is higher the more the user's stats have been raised, to a maximum of 31\u00d7."
+   ],
+   [
+      "burn-up",
+      100,
+      130,
+      5,
+      "special",
+      0,
+      "fire",
+      "Removes the user's fire type after inflicting damage."
+   ],
+   [
+      "speed-swap",
+      null,
+      null,
+      10,
+      "status",
+      0,
+      "psychic",
+      "Exchanges the user's Speed with the target's."
+   ],
+   [
+      "smart-strike",
+      null,
+      70,
+      10,
+      "physical",
+      0,
+      "steel",
+      "Never misses."
+   ],
+   [
+      "purify",
+      null,
+      null,
+      20,
+      "status",
+      0,
+      "poison",
+      "Cures the target of a major status ailment and heals the user for 50% of its max HP."
+   ],
+   [
+      "revelation-dance",
+      100,
+      90,
+      15,
+      "special",
+      0,
+      "normal",
+      "Has the same type as the user."
+   ],
+   [
+      "core-enforcer",
+      100,
+      100,
+      10,
+      "special",
+      0,
+      "dragon",
+      "Nullifies the target's ability if it moves earlier."
+   ],
+   [
+      "trop-kick",
+      100,
+      70,
+      15,
+      "physical",
+      0,
+      "grass",
+      "Lowers the target's Attack by one stage after inflicting damage."
+   ],
+   [
+      "instruct",
+      null,
+      null,
+      15,
+      "status",
+      0,
+      "psychic",
+      "Forces the target to repeat its last used move."
+   ],
+   [
+      "beak-blast",
+      100,
+      100,
+      15,
+      "physical",
+      -3,
+      "flying",
+      "Inflicts a burn on any Pok\u00e9mon that makes contact before the attack."
+   ],
+   [
+      "clanging-scales",
+      100,
+      110,
+      5,
+      "special",
+      0,
+      "dragon",
+      "Lowers the user's Defense by one stage after inflicting damage."
+   ],
+   [
+      "dragon-hammer",
+      100,
+      90,
+      15,
+      "physical",
+      0,
+      "dragon",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "brutal-swing",
+      100,
+      60,
+      20,
+      "physical",
+      0,
+      "dark",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "aurora-veil",
+      null,
+      null,
+      20,
+      "status",
+      0,
+      "ice",
+      "Reduces damage five turns, but must be used during hail."
+   ],
+   [
+      "sinister-arrow-raid",
+      null,
+      180,
+      1,
+      "physical",
+      0,
+      "ghost",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "malicious-moonsault",
+      null,
+      180,
+      1,
+      "physical",
+      0,
+      "dark",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "oceanic-operetta",
+      null,
+      195,
+      1,
+      "special",
+      0,
+      "water",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "guardian-of-alola",
+      null,
+      null,
+      1,
+      "special",
+      0,
+      "fairy",
+      "Damages the target for 75% of its remaining HP."
+   ],
+   [
+      "soul-stealing-7-star-strike",
+      null,
+      195,
+      1,
+      "physical",
+      0,
+      "ghost",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "stoked-sparksurfer",
+      null,
+      175,
+      1,
+      "special",
+      0,
+      "electric",
+      "Has a $effect_chance% chance to paralyze the target."
+   ],
+   [
+      "pulverizing-pancake",
+      null,
+      210,
+      1,
+      "physical",
+      0,
+      "normal",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "extreme-evoboost",
+      null,
+      null,
+      1,
+      "status",
+      0,
+      "normal",
+      "Raises all of the user's stats by two stages."
+   ],
+   [
+      "genesis-supernova",
+      null,
+      185,
+      1,
+      "special",
+      0,
+      "psychic",
+      "Changes the terrain to Psychic Terrain after inflicting damage."
+   ],
+   [
+      "shell-trap",
+      100,
+      150,
+      5,
+      "special",
+      -3,
+      "fire",
+      "Only inflicts damage if the user was hit by a physical move this turn."
+   ],
+   [
+      "fleur-cannon",
+      90,
+      130,
+      5,
+      "special",
+      0,
+      "fairy",
+      "Lowers the user's Special Attack by two stages after inflicting damage."
+   ],
+   [
+      "psychic-fangs",
+      100,
+      85,
+      10,
+      "physical",
+      0,
+      "psychic",
+      "Destroys Reflect and Light Screen."
+   ],
+   [
+      "stomping-tantrum",
+      100,
+      75,
+      10,
+      "physical",
+      0,
+      "ground",
+      "Has double power if the user's last move failed."
+   ],
+   [
+      "shadow-bone",
+      100,
+      85,
+      10,
+      "physical",
+      0,
+      "ghost",
+      "Has a $effect_chance% chance to lower the target's Defense by one stage."
+   ],
+   [
+      "accelerock",
+      100,
+      40,
+      20,
+      "physical",
+      1,
+      "rock",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "liquidation",
+      100,
+      85,
+      10,
+      "physical",
+      0,
+      "water",
+      "Has a $effect_chance% chance to lower the target's Defense by one stage."
+   ],
+   [
+      "prismatic-laser",
+      100,
+      160,
+      10,
+      "special",
+      0,
+      "psychic",
+      "User foregoes its next turn to recharge."
+   ],
+   [
+      "spectral-thief",
+      100,
+      90,
+      10,
+      "physical",
+      0,
+      "ghost",
+      "Steals the target's stat increases, then inflicts damage."
+   ],
+   [
+      "sunsteel-strike",
+      100,
+      100,
+      5,
+      "physical",
+      0,
+      "steel",
+      "Cannot be disrupted by abilities."
+   ],
+   [
+      "moongeist-beam",
+      100,
+      100,
+      5,
+      "special",
+      0,
+      "ghost",
+      "Cannot be disrupted by abilities."
+   ],
+   [
+      "tearful-look",
+      null,
+      null,
+      20,
+      "status",
+      0,
+      "normal",
+      "Lowers the target's Attack and Special Attack by one stage."
+   ],
+   [
+      "zing-zap",
+      100,
+      80,
+      10,
+      "physical",
+      0,
+      "electric",
+      "Has a $effect_chance% chance to make the target flinch."
+   ],
+   [
+      "natures-madness",
+      90,
+      null,
+      10,
+      "special",
+      0,
+      "fairy",
+      "Inflicts damage equal to half the target's HP."
+   ],
+   [
+      "multi-attack",
+      100,
+      120,
+      10,
+      "physical",
+      0,
+      "normal",
+      "If the user is holding a appropriate plate or drive, the damage inflicted will match it."
+   ],
+   [
+      "10-000-000-volt-thunderbolt",
+      null,
+      195,
+      1,
+      "special",
+      0,
+      "electric",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "mind-blown",
+      100,
+      150,
+      5,
+      "special",
+      0,
+      "fire",
+      "Inflicts damage, and the user takes damage equal to half of its max HP, rounded up."
+   ],
+   [
+      "plasma-fists",
+      100,
+      100,
+      15,
+      "physical",
+      0,
+      "electric",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "photon-geyser",
+      100,
+      100,
+      5,
+      "special",
+      0,
+      "psychic",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "light-that-burns-the-sky",
+      null,
+      200,
+      1,
+      "special",
+      0,
+      "psychic",
+      "Inflicts damage using either Attack or Special Attack stat, whichever is higher."
+   ],
+   [
+      "searing-sunraze-smash",
+      null,
+      200,
+      1,
+      "physical",
+      0,
+      "steel",
+      "Cannot be disrupted by abilities."
+   ],
+   [
+      "menacing-moonraze-maelstrom",
+      null,
+      200,
+      1,
+      "special",
+      0,
+      "ghost",
+      "Cannot be disrupted by abilities."
+   ],
+   [
+      "lets-snuggle-forever",
+      null,
+      190,
+      1,
+      "physical",
+      0,
+      "fairy",
+      "After inflicting damage, causes all Normal-type moves to become Electric-type for the remainder of the turn."
+   ],
+   [
+      "splintered-stormshards",
+      null,
+      190,
+      1,
+      "physical",
+      0,
+      "rock",
+      "Inflicts damage and removes any terrain present on the battlefield."
+   ],
+   [
+      "clangorous-soulblaze",
+      null,
+      185,
+      1,
+      "special",
+      0,
+      "dragon",
+      "Inflicts damage to all opposing Pok\u00e9mon and increases the user's Attack, Defense, Special Attack, Special Defense, and Speed by one stage each."
+   ],
+   [
+      "zippy-zap",
+      100,
+      80,
+      10,
+      "physical",
+      2,
+      "electric",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "splishy-splash",
+      100,
+      90,
+      15,
+      "special",
+      0,
+      "water",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "floaty-fall",
+      95,
+      90,
+      15,
+      "physical",
+      0,
+      "flying",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "pika-papow",
+      null,
+      null,
+      20,
+      "special",
+      0,
+      "electric",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "bouncy-bubble",
+      100,
+      60,
+      20,
+      "special",
+      0,
+      "water",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "buzzy-buzz",
+      100,
+      60,
+      20,
+      "special",
+      0,
+      "electric",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "sizzly-slide",
+      100,
+      60,
+      20,
+      "physical",
+      0,
+      "fire",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "glitzy-glow",
+      95,
+      80,
+      15,
+      "special",
+      0,
+      "psychic",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "baddy-bad",
+      95,
+      80,
+      15,
+      "special",
+      0,
+      "dark",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "sappy-seed",
+      90,
+      100,
+      10,
+      "physical",
+      0,
+      "grass",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "freezy-frost",
+      90,
+      100,
+      10,
+      "special",
+      0,
+      "ice",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "sparkly-swirl",
+      85,
+      120,
+      5,
+      "special",
+      0,
+      "fairy",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "veevee-volley",
+      null,
+      null,
+      20,
+      "physical",
+      0,
+      "normal",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "double-iron-bash",
+      100,
+      60,
+      5,
+      "physical",
+      0,
+      "steel",
+      "Hits twice in one turn."
+   ],
+   [
+      "max-guard",
+      null,
+      null,
+      10,
+      "status",
+      4,
+      "normal",
+      "Prevents any moves from hitting the user this turn."
+   ],
+   [
+      "dynamax-cannon",
+      100,
+      100,
+      5,
+      "special",
+      0,
+      "dragon",
+      "Sets Light Screen on the user's side of the field after inflicting damage."
+   ],
+   [
+      "snipe-shot",
+      100,
+      80,
+      15,
+      "special",
+      0,
+      "water",
+      "Sets Reflect on the user's side of the field after inflicting damage."
+   ],
+   [
+      "jaw-lock",
+      100,
+      80,
+      10,
+      "physical",
+      0,
+      "dark",
+      "Seeds the target after inflicting damage."
+   ],
+   [
+      "stuff-cheeks",
+      null,
+      null,
+      10,
+      "status",
+      0,
+      "normal",
+      "Cures the entire party of major status effects after inflicting damage."
+   ],
+   [
+      "no-retreat",
+      null,
+      null,
+      5,
+      "status",
+      0,
+      "fighting",
+      "Hits twice in one turn"
+   ],
+   [
+      "tar-shot",
+      100,
+      null,
+      15,
+      "status",
+      0,
+      "rock",
+      "The user pours sticky tar over the target, lowering the\ntarget\u2019s Speed stat. The target becomes weaker to\nFire-type moves."
+   ],
+   [
+      "magic-powder",
+      100,
+      null,
+      20,
+      "status",
+      0,
+      "psychic",
+      "The user scatters a cloud of magic powder that\nchanges the target to Psychic type."
+   ],
+   [
+      "dragon-darts",
+      100,
+      50,
+      10,
+      "physical",
+      0,
+      "dragon",
+      "The user attacks twice using Dreepy. If there are two\ntargets, this move hits each target once."
+   ],
+   [
+      "teatime",
+      null,
+      null,
+      10,
+      "status",
+      0,
+      "normal",
+      "The user has teatime with all the Pok\u00e9mon in the battle.\nEach Pok\u00e9mon eats its held Berry."
+   ],
+   [
+      "octolock",
+      100,
+      null,
+      15,
+      "status",
+      0,
+      "fighting",
+      "The user locks the target in and prevents it from\nfleeing. This move also lowers the target\u2019s Defense\nand Sp. Def every turn."
+   ],
+   [
+      "bolt-beak",
+      100,
+      85,
+      10,
+      "physical",
+      0,
+      "electric",
+      "The user stabs the target with its electrified beak.\nIf the user attacks before the target, the power of this\nmove is doubled."
+   ],
+   [
+      "fishious-rend",
+      100,
+      85,
+      10,
+      "physical",
+      0,
+      "water",
+      "The user rends the target with its hard gills.\nIf the user attacks before the target, the power of this\nmove is doubled."
+   ],
+   [
+      "court-change",
+      100,
+      null,
+      10,
+      "status",
+      0,
+      "normal",
+      "With its mysterious power, the user swaps the effects on\neither side of the field."
+   ],
+   [
+      "max-flare",
+      null,
+      100,
+      10,
+      "physical",
+      0,
+      "fire",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "max-flutterby",
+      null,
+      10,
+      10,
+      "physical",
+      0,
+      "bug",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "max-lightning",
+      null,
+      10,
+      10,
+      "physical",
+      0,
+      "electric",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "max-strike",
+      null,
+      10,
+      10,
+      "physical",
+      0,
+      "normal",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "max-knuckle",
+      null,
+      10,
+      10,
+      "physical",
+      0,
+      "fighting",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "max-phantasm",
+      null,
+      10,
+      10,
+      "physical",
+      0,
+      "ghost",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "max-hailstorm",
+      null,
+      10,
+      10,
+      "physical",
+      0,
+      "ice",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "max-ooze",
+      null,
+      10,
+      10,
+      "physical",
+      0,
+      "poison",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "max-geyser",
+      null,
+      10,
+      10,
+      "physical",
+      0,
+      "water",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "max-airstream",
+      null,
+      10,
+      10,
+      "physical",
+      0,
+      "flying",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "max-starfall",
+      null,
+      10,
+      10,
+      "physical",
+      0,
+      "fairy",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "max-wyrmwind",
+      null,
+      10,
+      10,
+      "physical",
+      0,
+      "dragon",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "max-mindstorm",
+      null,
+      10,
+      10,
+      "physical",
+      0,
+      "psychic",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "max-rockfall",
+      null,
+      10,
+      10,
+      "physical",
+      0,
+      "rock",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "max-quake",
+      null,
+      10,
+      10,
+      "physical",
+      0,
+      "ground",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "max-darkness",
+      null,
+      10,
+      10,
+      "physical",
+      0,
+      "dark",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "max-overgrowth",
+      null,
+      10,
+      10,
+      "physical",
+      0,
+      "grass",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "max-steelspike",
+      null,
+      10,
+      10,
+      "physical",
+      0,
+      "steel",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "clangorous-soul",
+      100,
+      null,
+      5,
+      "status",
+      0,
+      "dragon",
+      "The user raises all its stats by using some of its HP."
+   ],
+   [
+      "body-press",
+      100,
+      80,
+      10,
+      "physical",
+      0,
+      "fighting",
+      "The user attacks by slamming its body into the target.\nThe higher the user\u2019s Defense, the more damage it can\ninflict on the target."
+   ],
+   [
+      "decorate",
+      null,
+      null,
+      15,
+      "status",
+      0,
+      "fairy",
+      "The user sharply raises the target\u2019s Attack and Sp. Atk\nstats by decorating the target."
+   ],
+   [
+      "drum-beating",
+      100,
+      80,
+      10,
+      "physical",
+      0,
+      "grass",
+      "Has a $effect_chance% chance to lower the target's Speed by one stage."
+   ],
+   [
+      "snap-trap",
+      100,
+      35,
+      15,
+      "physical",
+      0,
+      "grass",
+      "Prevents the target from fleeing and inflicts damage for 2-5 turns."
+   ],
+   [
+      "pyro-ball",
+      90,
+      120,
+      5,
+      "physical",
+      0,
+      "fire",
+      "Has a $effect_chance% chance to burn the target."
+   ],
+   [
+      "behemoth-blade",
+      100,
+      100,
+      5,
+      "physical",
+      0,
+      "steel",
+      "The user becomes a gigantic sword and cuts the target.\nThis move deals twice the damage if the target\nis Dynamaxed."
+   ],
+   [
+      "behemoth-bash",
+      100,
+      100,
+      5,
+      "physical",
+      0,
+      "steel",
+      "The user becomes a gigantic shield and slams into\nthe target. This move deals twice the damage if the\ntarget is Dynamaxed."
+   ],
+   [
+      "aura-wheel",
+      100,
+      110,
+      10,
+      "physical",
+      0,
+      "electric",
+      "Morpeko attacks and raises its Speed with the energy\nstored in its cheeks. This move\u2019s type changes\ndepending on the user\u2019s form."
+   ],
+   [
+      "breaking-swipe",
+      100,
+      60,
+      15,
+      "physical",
+      0,
+      "dragon",
+      "Lowers the target's Attack by one stage after inflicting damage."
+   ],
+   [
+      "branch-poke",
+      100,
+      40,
+      40,
+      "physical",
+      0,
+      "grass",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "overdrive",
+      100,
+      80,
+      10,
+      "special",
+      0,
+      "electric",
+      "The user attacks opposing Pok\u00e9mon by twanging\na guitar or bass guitar, causing a huge echo and\nstrong vibration."
+   ],
+   [
+      "apple-acid",
+      100,
+      80,
+      10,
+      "special",
+      0,
+      "grass",
+      "The user attacks the target with an acidic liquid created\nfrom tart apples. This also lowers the target\u2019s\nSp. Def stat."
+   ],
+   [
+      "grav-apple",
+      100,
+      80,
+      10,
+      "physical",
+      0,
+      "grass",
+      "Lowers the target's Defense by one stage after inflicting damage."
+   ],
+   [
+      "spirit-break",
+      100,
+      75,
+      15,
+      "physical",
+      0,
+      "fairy",
+      "Has a $effect_chance% chance to lower the target's Special Attack by one stage."
+   ],
+   [
+      "strange-steam",
+      95,
+      90,
+      10,
+      "special",
+      0,
+      "fairy",
+      "Has a $effect_chance% chance to confuse the target."
+   ],
+   [
+      "life-dew",
+      null,
+      null,
+      10,
+      "status",
+      0,
+      "water",
+      "The user scatters mysterious water around and restores\nthe HP of itself and its ally Pok\u00e9mon in the battle."
+   ],
+   [
+      "obstruct",
+      100,
+      null,
+      10,
+      "status",
+      4,
+      "dark",
+      "This move enables the user to protect itself from all attacks.\nIts chance of failing rises if it is used in succession.\nDirect contact harshly lowers the attacker\u2019s Defense stat."
+   ],
+   [
+      "false-surrender",
+      null,
+      80,
+      10,
+      "physical",
+      0,
+      "dark",
+      "Never misses."
+   ],
+   [
+      "meteor-assault",
+      100,
+      150,
+      5,
+      "physical",
+      0,
+      "fighting",
+      "User foregoes its next turn to recharge."
+   ],
+   [
+      "eternabeam",
+      90,
+      160,
+      5,
+      "special",
+      0,
+      "dragon",
+      "User foregoes its next turn to recharge."
+   ],
+   [
+      "steel-beam",
+      95,
+      140,
+      5,
+      "special",
+      0,
+      "steel",
+      "Inflicts damage, and the user takes damage equal to half of its max HP, rounded up."
+   ],
+   [
+      "expanding-force",
+      100,
+      80,
+      10,
+      "special",
+      0,
+      "psychic",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "steel-roller",
+      100,
+      130,
+      5,
+      "physical",
+      0,
+      "steel",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "scale-shot",
+      90,
+      25,
+      20,
+      "physical",
+      0,
+      "dragon",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "meteor-beam",
+      90,
+      120,
+      10,
+      "special",
+      0,
+      "rock",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "shell-side-arm",
+      100,
+      90,
+      10,
+      "special",
+      0,
+      "poison",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "misty-explosion",
+      100,
+      100,
+      5,
+      "special",
+      0,
+      "fairy",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "grassy-glide",
+      100,
+      70,
+      20,
+      "physical",
+      0,
+      "grass",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "rising-voltage",
+      100,
+      70,
+      20,
+      "special",
+      0,
+      "electric",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "terrain-pulse",
+      100,
+      50,
+      10,
+      "special",
+      0,
+      "normal",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "skitter-smack",
+      90,
+      70,
+      10,
+      "physical",
+      0,
+      "bug",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "burning-jealousy",
+      100,
+      70,
+      5,
+      "special",
+      0,
+      "fire",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "lash-out",
+      100,
+      75,
+      5,
+      "physical",
+      0,
+      "dark",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "poltergeist",
+      90,
+      110,
+      5,
+      "physical",
+      0,
+      "ghost",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "corrosive-gas",
+      100,
+      null,
+      40,
+      "status",
+      0,
+      "poison",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "coaching",
+      null,
+      null,
+      10,
+      "status",
+      0,
+      "fighting",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "flip-turn",
+      100,
+      60,
+      20,
+      "physical",
+      0,
+      "water",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "triple-axel",
+      90,
+      20,
+      10,
+      "physical",
+      0,
+      "ice",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "dual-wingbeat",
+      90,
+      40,
+      10,
+      "physical",
+      0,
+      "flying",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "scorching-sands",
+      100,
+      70,
+      10,
+      "special",
+      0,
+      "ground",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "jungle-healing",
+      null,
+      null,
+      10,
+      "status",
+      0,
+      "grass",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "wicked-blow",
+      100,
+      80,
+      5,
+      "physical",
+      0,
+      "dark",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "surging-strikes",
+      100,
+      25,
+      5,
+      "physical",
+      0,
+      "water",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "thunder-cage",
+      90,
+      80,
+      15,
+      "special",
+      0,
+      "electric",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "dragon-energy",
+      100,
+      150,
+      5,
+      "special",
+      0,
+      "dragon",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "freezing-glare",
+      100,
+      90,
+      10,
+      "special",
+      0,
+      "psychic",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "fiery-wrath",
+      100,
+      90,
+      10,
+      "special",
+      0,
+      "dark",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "thunderous-kick",
+      100,
+      90,
+      10,
+      "physical",
+      0,
+      "fighting",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "glacial-lance",
+      100,
+      130,
+      5,
+      "physical",
+      0,
+      "ice",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "astral-barrage",
+      100,
+      120,
+      5,
+      "special",
+      0,
+      "ghost",
+      "Inflicts regular damage with no additional effect."
+   ],
+   [
+      "eerie-spell",
+      100,
+      80,
+      5,
+      "special",
+      0,
+      "psychic",
+      "Inflicts regular damage with no additional effect."
+   ]
+]

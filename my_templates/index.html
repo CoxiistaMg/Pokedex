@@ -1,0 +1,75 @@
+{% extends 'base.html'%}
+{%load static%}
+{% block script%}
+<script>
+    const formData = new FormData();
+    var list_display = []
+    var number_card = 0
+
+    formData.append('csrfmiddlewaretoken', '{{ csrf_token }}');
+    formData.append("search", '{{search}}')
+    var pokemons = Array((fetch('http://127.0.0.1:8000/api_search', {
+        method: "POST",
+        body: formData}).then((e)=> e.json())))
+    
+
+    function draw(){
+        let type_string = ''
+        let lista = [...list_display]
+
+        container = document.getElementById('cards')
+        value = 40
+
+        if (value >= list_display.length){
+            value = list_display.length
+            document.getElementById('button').remove()
+        }
+
+        for (let i=0; i < value; i++){
+            type_string = ''
+       
+        for (type in list_display[i].types){
+            type_string += `
+            <div class='col-md-5 col-3 justify-content-md-center'>
+                <img src="/media/types/${list_display[i].types[type]}.jpg" class='img-fluid' alt="" srcset="">
+            </div>
+            `
+        }
+            container.innerHTML += `
+            <div class='col-lg-3 col-md-6 col-12 p-3'>
+                <a href='{% url 'pokedex'%}pokemon/${list_display[i].url_name}'> 
+                    <div class="card text-center p-4"'>
+                    <img class="card-img-top img-fluid rounded mx-auto d-block" style='height: 150px; width: 150px;' src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${parseInt(list_display[i].id)}.png" alt="Card image">
+                </a>
+                <h4 class="card-title" style="color: black;">${list_display[i].relative_name.toLowerCase().replace(/\b(\w)/g, s => s.toUpperCase())}</h4>
+                        <span class='text-black-50'>N°${list_display[i].id}<span>
+                        <div class='row justify-content-center'>
+                            ${type_string}
+                        </div>
+                    </div>
+                </div>
+        `
+        lista.shift()
+        }
+        list_display = lista
+    }
+
+    Promise.all(pokemons).then((e) => {
+    list_display = e[0]
+    draw()
+    document.getElementById('button').innerHTML += `
+    <button id='show-more' class='btn btn-primary col-12' onclick="draw()">Show More!</button>
+`
+})
+    
+    
+</script>
+{%endblock%}
+{% block content%}
+
+    <div class="container">
+            <div class="row" id="cards"></div>
+        <div id="button"></div>
+    </div>
+
+{% endblock%}
